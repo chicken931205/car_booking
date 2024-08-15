@@ -1,0 +1,7103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Park Booking System\n"
+"POT-Creation-Date: 2024-07-18 08:30+0200\n"
+"PO-Revision-Date: 2020-06-26 09:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs <quanticalabs@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class/CPBS.BillingType.class.php:14
+msgid "Minute"
+msgstr ""
+
+#: ../class/CPBS.BillingType.class.php:15
+msgid "Hour"
+msgstr ""
+
+#: ../class/CPBS.BillingType.class.php:16
+msgid "Day"
+msgstr ""
+
+#: ../class/CPBS.BillingType.class.php:17
+msgid "Day II"
+msgstr ""
+
+#: ../class/CPBS.BillingType.class.php:18
+msgid "Hour + minute"
+msgstr ""
+
+#: ../class/CPBS.BillingType.class.php:19
+msgid "Day + hour"
+msgstr ""
+
+#: ../class/CPBS.BillingType.class.php:20
+msgid "Day + hour II"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:39 ../class/CPBS.Booking.class.php:42
+msgid "Bookings"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:40 ../class/CPBS.WooCommerce.class.php:429
+msgid "Booking"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:41
+msgid "Edit Booking"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:43
+msgid "View Booking"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:44
+msgid "Search Bookings"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:45
+msgid "No Bookings Found"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:46
+msgid "No Bookings Found in Trash"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:48 ../class/CPBS.Plugin.class.php:583
+#: ../template/admin/option.php:14
+msgid "Car Park Booking System"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:83 ../class/CPBS.BookingExtra.class.php:111
+#: ../class/CPBS.BookingForm.class.php:142 ../class/CPBS.Coupon.class.php:78
+#: ../class/CPBS.EmailAccount.class.php:97 ../class/CPBS.Location.class.php:104
+#: ../class/CPBS.PlaceType.class.php:78 ../class/CPBS.PriceRule.class.php:213
+#: ../class/CPBS.TaxRate.class.php:77
+#: ../template/admin/meta_box_booking_form.php:16
+#: ../template/admin/meta_box_booking_form.php:204
+msgid "Main"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:84
+#: ../template/admin/meta_box_booking_form.php:77
+msgid "WooCommerce"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:116
+msgid ""
+"This booking has corresponding wooCommerce order. Click on button below to "
+"see its details in new window."
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:118 ../class/CPBS.WooCommerce.class.php:447
+msgid "Open booking"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:127
+msgid "This booking hasn't corresponding wooCommerce order."
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:376
+#, php-format
+msgid "New booking \"%s\" is received"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:429
+#, php-format
+msgid "Booking #%s"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:492
+msgid "Booking status"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:493 ../class/CPBS.BookingReport.class.php:87
+#: ../template/admin/meta_box_booking.php:52
+#: ../template/admin/meta_box_booking_extra.php:127
+#: ../template/admin/meta_box_location.php:427
+#: ../template/email_booking.php:123 ../template/email_booking.php:130
+#: ../template/email_report.php:56
+msgid "Location"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:494 ../class/CPBS.BookingReport.class.php:88
+#: ../template/admin/meta_box_booking.php:60
+#: ../template/admin/meta_box_booking.php:258 ../template/email_booking.php:150
+#: ../template/email_report.php:60
+msgid "Space type"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:495 ../class/CPBS.BookingForm.class.php:2122
+#: ../class/CPBS.BookingForm.class.php:2149
+#: ../template/admin/meta_box_location.php:60
+msgid "Booking period"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:496
+#: ../template/admin/meta_box_booking.php:16
+msgid "Client"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:497 ../class/CPBS.BookingExtra.class.php:557
+#: ../template/admin/meta_box_booking.php:151
+#: ../template/admin/meta_box_booking.php:357
+#: ../template/admin/meta_box_booking_extra.php:72
+#: ../template/admin/meta_box_booking_extra.php:143
+#: ../template/admin/meta_box_price_rule.php:146
+#: ../template/admin/meta_box_price_rule.php:255
+#: ../template/admin/meta_box_price_rule.php:360
+#: ../template/admin/meta_box_price_rule.php:465
+msgid "Price"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:590
+msgid "New & accepted"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:603
+msgid "All statuses"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:806 ../class/CPBS.BookingForm.class.php:1860
+msgid "Initial fee"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:807 ../class/CPBS.Booking.class.php:893
+#: ../template/admin/meta_box_booking.php:127
+msgid "Item"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:824
+msgid "Rental fee per minute"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:825
+msgid "No. of minutes"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:843
+msgid "Rental fee per hour"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:844
+msgid "No. of hours"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:863
+msgid "Rental fee per day"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:864
+msgid "No. of days"
+msgstr ""
+
+#: ../class/CPBS.Booking.class.php:1013
+#, php-format
+msgid "Booking \"%s\" has changed status to \"%s\""
+msgstr ""
+
+#: ../class/CPBS.BookingCalendar.class.php:53
+msgid "- All locations -"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:14
+msgid "Price per entire rental period"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:15
+msgid "Price per single quantity"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:73
+#: ../class/CPBS.BookingExtra.class.php:79
+#: ../class/CPBS.BookingExtra.class.php:85
+msgid "Booking Extras"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:74
+msgid "Booking Extra"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:75
+#: ../class/CPBS.BookingForm.class.php:97 ../class/CPBS.Coupon.class.php:42
+#: ../class/CPBS.EmailAccount.class.php:61 ../class/CPBS.Location.class.php:68
+#: ../class/CPBS.PlaceType.class.php:42 ../class/CPBS.PriceRule.class.php:177
+#: ../class/CPBS.TaxRate.class.php:41
+msgid "Add New"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:76
+msgid "Add New Booking Add-on"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:77
+msgid "Edit Booking Extra"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:78
+msgid "New Booking Extra"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:80
+msgid "View Booking Extra"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:81
+msgid "Search Booking Extras"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:82
+msgid "No Booking Extras Found"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:83
+msgid "No Booking Extras Found in Trash"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:387
+msgid " per entire period"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:391
+msgid " per quantity"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:555
+#: ../class/CPBS.BookingForm.class.php:575 ../class/CPBS.Location.class.php:709
+#: ../class/CPBS.PlaceType.class.php:247 ../class/CPBS.TaxRate.class.php:232
+#: ../template/email_booking.php:62
+msgid "Title"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:556
+#: ../template/admin/meta_box_booking.php:143
+#: ../template/admin/meta_box_booking.php:349
+#: ../template/admin/meta_box_booking_extra.php:21
+#: ../template/admin/meta_box_location.php:244
+#: ../template/admin/meta_box_location.php:320
+msgid "Quantity"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:579
+#: ../class/CPBS.GoogleMap.class.php:38
+msgid "Default"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:583
+#: ../template/admin/meta_box_location.php:103
+msgid "Minimum"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:587
+#: ../template/admin/meta_box_location.php:111
+msgid "Maximum"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:591
+msgid "Readonly "
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:595
+msgid "Equal to number of rental days"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:609
+msgid "Net price"
+msgstr ""
+
+#: ../class/CPBS.BookingExtra.class.php:613
+msgid "Price type"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:16
+#: ../class/CPBS.BookingForm.class.php:2183
+#: ../class/CPBS.BookingForm.class.php:3061 ../template/email_booking.php:230
+#: ../template/email_report.php:84
+msgid "Phone number"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:21
+#: ../class/CPBS.BookingForm.class.php:2204
+#: ../class/CPBS.BookingForm.class.php:3106
+msgid "Company registered name"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:26
+#: ../class/CPBS.BookingForm.class.php:2208
+#: ../class/CPBS.BookingForm.class.php:3110 ../template/email_booking.php:254
+msgid "Tax number"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:31 ../template/email_booking.php:258
+msgid "Street name"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:36
+#: ../class/CPBS.BookingForm.class.php:3121 ../template/email_booking.php:262
+msgid "Street number"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:41
+#: ../class/CPBS.BookingForm.class.php:3125 ../template/email_booking.php:266
+msgid "City"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:46
+#: ../class/CPBS.BookingForm.class.php:3132 ../template/email_booking.php:270
+msgid "State"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:51
+#: ../class/CPBS.BookingForm.class.php:3136 ../template/email_booking.php:274
+msgid "Postal code"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:56
+#: ../class/CPBS.BookingForm.class.php:3140 ../template/email_booking.php:278
+msgid "Country"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:63
+msgid "Price ascending"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:64
+msgid "Price descending"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:65
+msgid "Space number ascending"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:66
+msgid "Space number descending"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:95
+#: ../class/CPBS.BookingForm.class.php:101
+#: ../class/CPBS.BookingForm.class.php:107
+msgid "Booking Forms"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:96
+msgid "Booking Form"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:98
+msgid "Add New Booking Form"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:99
+msgid "Edit Booking Form"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:100
+msgid "New Booking Form"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:102
+msgid "View Booking Form"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:103
+msgid "Search Booking Forms"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:104
+msgid "No Booking Forms Found"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:105
+msgid "No Booking Forms Found in Trash"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:487
+msgid "Back To Home"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:671
+msgid "Booking form with provided ID doesn't exist."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:683
+msgid "Plugin cannot find at least single car park space type."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:692
+msgid ""
+"Plugin cannot find location. Please make sure that you created at least one "
+"location and set coordinates for it."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:703
+msgid "Plugin cannot find at least one available car park space."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:787
+msgid "1"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:788
+#: ../class/CPBS.BookingForm.class.php:804
+msgid "Select Dates"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:792
+#: ../template/public/public-step-1.php:90
+msgid "Get My Quote"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:799
+msgid "2"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:800
+#: ../class/CPBS.BookingForm.class.php:817
+#: ../class/CPBS.BookingForm.class.php:2773
+msgid "Parking Space"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:805
+#: ../class/CPBS.BookingForm.class.php:813
+#: ../class/CPBS.BookingForm.class.php:830
+#: ../class/CPBS.BookingForm.class.php:2163
+#: ../class/CPBS.BookingForm.class.php:3040
+msgid "Customer Details"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:812
+msgid "3"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:818
+#: ../class/CPBS.BookingForm.class.php:826
+msgid "Booking Summary"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:825
+msgid "4"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:831
+msgid "Book Now"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1038
+msgid "Cannot find at least one space available in selected time period."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1062
+msgid "Enter a valid location."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1073
+#: ../class/CPBS.BookingForm.class.php:1086
+#: ../class/CPBS.BookingForm.class.php:1187
+#: ../class/CPBS.BookingForm.class.php:1201
+msgid "Enter a valid date."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1080
+#: ../class/CPBS.BookingForm.class.php:1093
+#: ../class/CPBS.BookingForm.class.php:1170
+msgid "Enter a valid time."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1106
+msgid "Entry date/time has to be later than current date."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1115
+msgid "Exit date/time has to be later than entry date/time."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1129
+#, php-format
+msgid "It is not possible to rent a car park space between %s and %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1215
+msgid "days"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1223
+msgid "minutes"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1232
+msgid "hours"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1269
+#, php-format
+msgid "Minimum number of %s to rent a car park space  is %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1284
+#, php-format
+msgid "Maximum number of %s to rent a car park space is %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1306
+#, php-format
+msgid "Booking period should be between %s and %s %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1314
+#, php-format
+msgid "Booking period should not be less than %s %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1322
+#, php-format
+msgid "Booking period should not be more than %s %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1339
+msgid ""
+"All park spaces are booked. Please select different entry/exit date/time."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1366
+msgid "Select a space."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1377
+msgid "Space is not available in this location. Select a different one."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1395
+#, php-format
+msgid "Minimum value of order is %s."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1418
+msgid "Login to your account or provide all needed details."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1426
+msgid "Enter your first name"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1428
+msgid "Enter your last name"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1430
+msgid "Enter valid e-mail address"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1434
+msgid "Please enter valid phone number."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1444
+msgid "Enter valid company name."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1449
+msgid "Enter valid tax number."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1454
+msgid "Enter valid street name."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1459
+msgid "Enter valid street number."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1464
+msgid "Enter valid city name."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1469
+msgid "Enter valid state name."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1474
+msgid "Enter valid postal code."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1479
+msgid "Enter valid country name."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1493
+msgid "E-mail address is invalid."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1495
+msgid "E-mail address already exists"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1498
+msgid "Login cannot be empty."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1500
+msgid "Login already exists."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1503
+#: ../class/CPBS.BookingForm.class.php:1505
+msgid "Password cannot be empty."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1507
+msgid "Passwords are not the same."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1517
+msgid "Select a payment method."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1521
+msgid "Approve all agreements."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1605
+msgid ""
+"An error occurs during processing this payment. Plugin cannot continue the "
+"work."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1847
+#: ../template/admin/meta_box_booking.php:14
+msgid "Space"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1872
+msgid "Extra options"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1883
+#: ../template/admin/meta_box_booking.php:167
+#: ../template/admin/meta_box_booking.php:373
+#: ../template/admin/meta_box_place_type.php:88
+#: ../template/admin/meta_box_price_rule.php:633
+msgid "Tax"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:1892
+msgid "Total"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2034
+msgid "Logged as"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2111
+#: ../class/CPBS.BookingForm.class.php:2138
+msgid "Booking Dates"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2114
+#: ../class/CPBS.BookingForm.class.php:2141
+#: ../class/CPBS.BookingForm.class.php:2244
+#: ../class/CPBS.BookingReport.class.php:89 ../template/email_booking.php:88
+#: ../template/public/public-step-1.php:20
+msgid "Entry date"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2118
+#: ../class/CPBS.BookingForm.class.php:2145
+#: ../class/CPBS.BookingForm.class.php:2248
+#: ../class/CPBS.BookingReport.class.php:91 ../template/email_booking.php:92
+#: ../template/public/public-step-1.php:47
+msgid "Exit date"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2124
+#: ../class/CPBS.BookingForm.class.php:2151
+#: ../class/CPBS.BookingForm.class.php:2292
+msgid "Order summary"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2167 ../template/email_booking.php:218
+#: ../template/email_report.php:72
+msgid "First name"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2171 ../template/email_booking.php:222
+#: ../template/email_report.php:76
+msgid "Last name"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2179
+#: ../template/admin/meta_box_email_account.php:23
+#: ../template/admin/meta_box_location.php:939
+#: ../template/email_booking.php:226 ../template/email_report.php:80
+msgid "E-mail address"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2190
+#: ../class/CPBS.BookingForm.class.php:3070
+msgid "Comments"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2200
+msgid "Billing Details"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2215
+#: ../class/CPBS.BookingForm.class.php:3099
+msgid "Billing Address"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2226
+#: ../class/CPBS.BookingForm.class.php:2695
+msgid "Payment Method"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2229
+msgid "Selected payment method"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2301
+msgid "Do you have a discount code?"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2305
+msgid "Apply code"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2365
+#: ../class/CPBS.BookingForm.class.php:2602
+msgid "Select"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2376
+msgid "Sold Out"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2393
+msgid "More details"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2405
+msgid "Parking space"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2406
+#: ../class/CPBS.PlaceType.class.php:280
+#, php-format
+msgid "%sx%s %s"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2418
+msgid "Spaces available"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2419
+#, php-format
+msgid "%s of %s available"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2574
+msgid "-"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2576
+msgid "+"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2614
+msgid "Add-on options"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2725
+#: ../class/CPBS.BookingForm.class.php:2786
+msgid "There are no car park spaces which match your filter criteria."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2774
+#, php-format
+msgid "%s Results Found"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2821
+msgid "Provided coupon is invalid."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2823
+msgid "Provided coupon is valid. Discount has been granted."
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2848
+#: ../class/CPBS.BookingForm.class.php:2873
+msgid "Sign In"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2854
+msgid "Login *"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2858
+msgid "Password *"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2869
+msgid "Don't Have an Account?"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2953
+msgid "New account"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2964
+msgid "Create an Account?"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2977
+msgid "Login"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2982
+#: ../template/admin/meta_box_email_account.php:51
+msgid "Password"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2984
+msgid "Generate"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2985
+msgid "Show"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:2990
+msgid "Re-type password"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:3046
+msgid "First name *"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:3050
+msgid "Last name *"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:3057
+msgid "E-mail address *"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:3117
+msgid "Street"
+msgstr ""
+
+#: ../class/CPBS.BookingForm.class.php:3173
+#: ../class/CPBS.BookingForm.class.php:3183
+msgid "Login error."
+msgstr ""
+
+#: ../class/CPBS.BookingFormElement.class.php:14
+#: ../template/admin/meta_box_booking_form.php:722
+msgid "Text"
+msgstr ""
+
+#: ../class/CPBS.BookingFormElement.class.php:15
+msgid "Select list"
+msgstr ""
+
+#: ../class/CPBS.BookingFormElement.class.php:16
+msgid "Select list with empty first option"
+msgstr ""
+
+#: ../class/CPBS.BookingFormElement.class.php:139
+msgid "- Contact details -"
+msgstr ""
+
+#: ../class/CPBS.BookingFormElement.class.php:144
+msgid "- Billing address -"
+msgstr ""
+
+#: ../class/CPBS.BookingFormElement.class.php:287
+#: ../template/admin/meta_box_booking.php:533
+#: ../template/admin/meta_box_booking_form.php:712
+#: ../template/email_booking.php:313
+msgid "Agreements"
+msgstr ""
+
+#: ../class/CPBS.BookingHelper.class.php:100
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: ../class/CPBS.BookingHelper.class.php:106
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: ../class/CPBS.BookingHelper.class.php:112
+#: ../class/CPBS.BookingHelper.class.php:131
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: ../class/CPBS.BookingHelper.class.php:118
+#, php-format
+msgid "%s hours, %s minutes"
+msgstr ""
+
+#: ../class/CPBS.BookingHelper.class.php:125
+#, php-format
+msgid "%s days, %s hours"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:71
+msgid "Car Park Booking System Report"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:85
+msgid "Booking Id"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:86
+msgid "Entry/Exit"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:90
+#: ../template/public/public-step-1.php:29
+msgid "Entry time"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:92
+#: ../template/public/public-step-1.php:55
+msgid "Exit time"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:93
+msgid "Client first name"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:94
+msgid "Client last name"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:95
+msgid "Client e-mail address"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:96
+msgid "Client phone number"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:147
+#: ../class/CPBS.Location.class.php:14
+msgid "Entry and exit"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:149
+#: ../class/CPBS.Location.class.php:15
+msgid "Entry"
+msgstr ""
+
+#: ../class/CPBS.BookingReport.class.php:151
+#: ../class/CPBS.Location.class.php:16
+msgid "Exit"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:14
+msgid "Pending (new)"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:15
+msgid "Processing (accepted)"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:16
+msgid "Cancelled (rejected)"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:17
+msgid "Completed (finished)"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:18
+msgid "On hold"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:19
+msgid "Refunded"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:20
+msgid "Failed"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:36
+msgid "No synchronization"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:37
+msgid "One way: from wooCommerce to plugin"
+msgstr ""
+
+#: ../class/CPBS.BookingStatus.class.php:38
+msgid "One way: from plugin to wooCommerce"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:21
+msgid "Afghanistan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:22
+msgid "Aland Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:23
+msgid "Albania"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:24
+msgid "Algeria"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:25
+msgid "American Samoa"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:26
+msgid "Andorra"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:27
+msgid "Angola"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:28
+msgid "Anguilla"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:29
+msgid "Antarctica"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:30
+msgid "Antigua And Barbuda"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:31
+msgid "Argentina"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:32
+msgid "Armenia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:33
+msgid "Aruba"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:34
+msgid "Australia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:35
+msgid "Austria"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:36
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:37
+msgid "Bahamas"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:38
+msgid "Bahrain"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:39
+msgid "Bangladesh"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:40
+msgid "Barbados"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:41
+msgid "Belarus"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:42
+msgid "Belgium"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:43
+msgid "Belize"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:44
+msgid "Benin"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:45
+msgid "Bermuda"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:46
+msgid "Bhutan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:47
+msgid "Bolivia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:48
+msgid "Bosnia And Herzegovina"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:49
+msgid "Botswana"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:50
+msgid "Bouvet Island"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:51
+msgid "Brazil"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:52
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:53
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:54
+msgid "Bulgaria"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:55
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:56
+msgid "Burundi"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:57
+msgid "Cambodia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:58
+msgid "Cameroon"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:59
+msgid "Canada"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:60
+msgid "Cape Verde"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:61
+msgid "Cayman Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:62
+msgid "Central African Republic"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:63
+msgid "Chad"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:64
+msgid "Chile"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:65
+msgid "China"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:66
+msgid "Christmas Island"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:67
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:68
+msgid "Colombia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:69
+msgid "Comoros"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:70
+msgid "Congo"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:71
+msgid "Congo, Democratic Republic"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:72
+msgid "Cook Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:73
+msgid "Costa Rica"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:74
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:75
+msgid "Croatia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:76
+msgid "Cuba"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:77
+msgid "Curaçao"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:78
+msgid "Cyprus"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:79
+msgid "Czech Republic"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:80
+msgid "Denmark"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:81
+msgid "Djibouti"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:82
+msgid "Dominica"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:83
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:84
+msgid "Ecuador"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:85
+msgid "Egypt"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:86
+msgid "El Salvador"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:87
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:88
+msgid "Eritrea"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:89
+msgid "Estonia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:90
+msgid "Ethiopia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:91
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:92
+msgid "Faroe Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:93
+msgid "Fiji"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:94
+msgid "Finland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:95
+msgid "France"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:96
+msgid "French Guiana"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:97
+msgid "French Polynesia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:98
+msgid "French Southern Territories"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:99
+msgid "Gabon"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:100
+msgid "Gambia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:101
+msgid "Georgia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:102
+msgid "Germany"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:103
+msgid "Ghana"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:104
+msgid "Gibraltar"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:105
+msgid "Greece"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:106
+msgid "Greenland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:107
+msgid "Grenada"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:108
+msgid "Guadeloupe"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:109
+msgid "Guam"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:110
+msgid "Guatemala"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:111
+msgid "Guernsey"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:112
+msgid "Guinea"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:113
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:114
+msgid "Guyana"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:115
+msgid "Haiti"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:116
+msgid "Heard Island & Mcdonald Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:117
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:118
+msgid "Honduras"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:119
+msgid "Hong Kong"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:120
+msgid "Hungary"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:121
+msgid "Iceland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:122
+msgid "India"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:123
+msgid "Indonesia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:124
+msgid "Iran, Islamic Republic Of"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:125
+msgid "Iraq"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:126
+msgid "Ireland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:127
+msgid "Isle Of Man"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:128
+msgid "Israel"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:129
+msgid "Italy"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:130
+msgid "Jamaica"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:131
+msgid "Japan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:132
+msgid "Jersey"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:133
+msgid "Jordan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:134
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:135
+msgid "Kenya"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:136
+msgid "Kiribati"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:137
+msgid "Korea"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:138
+msgid "Kuwait"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:139
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:140
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:141
+msgid "Latvia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:142
+msgid "Lebanon"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:143
+msgid "Lesotho"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:144
+msgid "Liberia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:145
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:146
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:147
+msgid "Lithuania"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:148
+msgid "Luxembourg"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:149
+msgid "Macao"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:150
+msgid "Macedonia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:151
+msgid "Madagascar"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:152
+msgid "Malawi"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:153
+msgid "Malaysia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:154
+msgid "Maldives"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:155
+msgid "Mali"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:156
+msgid "Malta"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:157
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:158
+msgid "Martinique"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:159
+msgid "Mauritania"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:160
+msgid "Mauritius"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:161
+msgid "Mayotte"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:162
+msgid "Mexico"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:163
+msgid "Micronesia, Federated States Of"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:164
+msgid "Moldova"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:165
+msgid "Monaco"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:166
+msgid "Mongolia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:167
+msgid "Montenegro"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:168
+msgid "Montserrat"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:169
+msgid "Morocco"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:170
+msgid "Mozambique"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:171
+msgid "Myanmar"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:172
+msgid "Namibia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:173
+msgid "Nauru"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:174
+msgid "Nepal"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:175
+msgid "Netherlands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:176
+msgid "New Caledonia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:177
+msgid "New Zealand"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:178
+msgid "Nicaragua"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:179
+msgid "Niger"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:180
+msgid "Nigeria"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:181
+msgid "Niue"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:182
+msgid "Norfolk Island"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:183
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:184
+msgid "Norway"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:185
+msgid "Oman"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:186
+msgid "Pakistan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:187
+msgid "Palau"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:188
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:189
+msgid "Panama"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:190
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:191
+msgid "Paraguay"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:192
+msgid "Peru"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:193
+msgid "Philippines"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:194
+msgid "Pitcairn"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:195
+msgid "Poland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:196
+msgid "Portugal"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:197
+msgid "Puerto Rico"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:198
+msgid "Qatar"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:199
+msgid "Reunion"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:200
+msgid "Romania"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:201
+msgid "Russian Federation"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:202
+msgid "Rwanda"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:203
+msgid "Saint Barthelemy"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:204
+msgid "Saint Helena"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:205
+msgid "Saint Kitts And Nevis"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:206
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:207
+msgid "Saint Martin"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:208
+msgid "Saint Pierre And Miquelon"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:209
+msgid "Saint Vincent And Grenadines"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:210
+msgid "Samoa"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:211
+msgid "San Marino"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:212
+msgid "Sao Tome And Principe"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:213
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:214
+msgid "Senegal"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:215
+msgid "Serbia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:216
+msgid "Seychelles"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:217
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:218
+msgid "Singapore"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:219
+msgid "Slovakia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:220
+msgid "Slovenia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:221
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:222
+msgid "Somalia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:223
+msgid "South Africa"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:224
+msgid "South Georgia And Sandwich Isl."
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:225
+msgid "Spain"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:226
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:227
+msgid "Sudan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:228
+msgid "Suriname"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:229
+msgid "Svalbard And Jan Mayen"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:230
+msgid "Swaziland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:231
+msgid "Sweden"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:232
+msgid "Switzerland"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:233
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:234
+msgid "Taiwan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:235
+msgid "Tajikistan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:236
+msgid "Tanzania"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:237
+msgid "Thailand"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:238
+msgid "Timor-Leste"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:239
+msgid "Togo"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:240
+msgid "Tokelau"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:241
+msgid "Tonga"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:242
+msgid "Trinidad And Tobago"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:243
+msgid "Tunisia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:244
+msgid "Turkey"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:245
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:246
+msgid "Turks And Caicos Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:247
+msgid "Tuvalu"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:248
+msgid "Uganda"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:249
+msgid "Ukraine"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:250
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:251
+msgid "United Kingdom"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:252
+msgid "United States"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:253
+msgid "United States Outlying Islands"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:254
+msgid "Uruguay"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:255
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:256
+msgid "Vanuatu"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:257
+msgid "Venezuela"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:258
+msgid "Viet Nam"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:259
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:260
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:261
+msgid "Wallis And Futuna"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:262
+msgid "Western Sahara"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:263
+msgid "Yemen"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:264
+msgid "Zambia"
+msgstr ""
+
+#: ../class/CPBS.Country.class.php:265
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:40 ../class/CPBS.Coupon.class.php:41
+#: ../class/CPBS.Coupon.class.php:46 ../class/CPBS.Coupon.class.php:52
+#: ../template/admin/meta_box_booking_form.php:104
+msgid "Coupons"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:43
+msgid "Add New Coupon"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:44
+msgid "Edit Coupon"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:45
+msgid "New Coupon"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:47
+msgid "View Coupon"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:48
+msgid "Search Coupons"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:49
+msgid "No Coupons Found"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:50
+msgid "No Coupons in Trash"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:319
+msgid "Code"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:320
+msgid "Usage"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:321 ../template/admin/meta_box_booking.php:98
+#: ../template/admin/meta_box_coupon.php:50
+#: ../template/admin/meta_box_coupon.php:90
+#: ../template/admin/option_coupon_creator.php:37
+msgid "Percentage discount"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:322 ../template/admin/meta_box_coupon.php:57
+#: ../template/admin/meta_box_coupon.php:98
+#: ../template/admin/option_coupon_creator.php:45
+msgid "Fixed discount"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:323
+msgid "Active"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:324 ../template/admin/meta_box_coupon.php:9
+#: ../template/admin/meta_box_price_rule.php:26
+msgid "Users"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:346
+#, php-format
+msgid "Used %s from %s"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:354 ../class/CPBS.Coupon.class.php:362
+msgid " (depends on rental days)"
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:374
+msgid "Login status: "
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:374
+msgid "Groups: "
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:424 ../class/CPBS.Plugin.class.php:668
+msgid "This field includes invalid value."
+msgstr ""
+
+#: ../class/CPBS.Coupon.class.php:442 ../class/CPBS.Coupon.class.php:443
+msgid "Invalid dates range."
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:23
+msgid "Afghan afghani"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:28
+msgid "Albanian lek"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:33
+msgid "Algerian dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:38
+msgid "Angolan kwanza"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:43
+msgid "Argentine peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:48
+msgid "Armenian dram"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:53
+msgid "Aruban florin"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:58
+msgid "Australian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:64
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:69
+msgid "Bahamian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:74
+msgid "Bahraini dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:80
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:85
+msgid "Barbadian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:90
+msgid "Belarusian ruble"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:95
+msgid "Belize dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:100
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:105
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:110
+msgid "Bosnia and Herzegovina konvertibilna marka"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:115
+msgid "Botswana pula"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:121
+msgid "Brazilian real"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:126
+msgid "British pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:133
+msgid "Brunei dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:139
+msgid "Bulgarian lev"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:144
+msgid "Burundi franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:149
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:154
+msgid "Cambodian riel"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:159
+msgid "Canadian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:165
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:170 ../class/CPBS.Currency.class.php:175
+msgid "Central African CFA franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:180
+msgid "CFP franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:185
+msgid "Chilean peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:190
+msgid "Chinese renminbi"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:195
+msgid "Colombian peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:200
+msgid "Comorian franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:205
+msgid "Congolese franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:210
+msgid "Costa Rican colon"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:215
+msgid "Croatian kuna"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:220
+msgid "Cuban peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:225
+msgid "Czech koruna"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:230
+msgid "Danish krone"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:235
+msgid "Djiboutian franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:240
+msgid "Dominican peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:246
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:251
+msgid "Egyptian pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:256
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:261
+msgid "Estonian kroon"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:266
+msgid "Ethiopian birr"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:271
+msgid "European euro"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:276
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:281
+msgid "Fijian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:287
+msgid "Gambian dalasi"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:292
+msgid "Georgian lari"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:297
+msgid "Ghanaian cedi"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:302
+msgid "Gibraltar pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:307
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:313
+msgid "Guinean franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:318
+msgid "Guyanese dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:323
+msgid "Haitian gourde"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:328
+msgid "Honduran lempira"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:334
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:340
+msgid "Hungarian forint"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:345
+msgid "Icelandic krona"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:350
+msgid "Indian rupee"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:356
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:362
+msgid "Iranian rial"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:368
+msgid "Iraqi dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:374
+msgid "Israeli new sheqel"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:380
+msgid "Yemeni rial"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:385
+msgid "Jamaican dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:390
+msgid "Japanese yen"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:396
+msgid "Jordanian dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:401
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:406
+msgid "Kenyan shilling"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:411
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:416
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:422
+msgid "Lao kip"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:427
+msgid "Latvian lats"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:432
+msgid "Lebanese lira"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:437
+msgid "Lesotho loti"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:442
+msgid "Liberian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:447
+msgid "Libyan dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:452
+msgid "Lithuanian litas"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:457
+msgid "Macanese pataca"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:462
+msgid "Macedonian denar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:467
+msgid "Malagasy ariary"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:472
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:478
+msgid "Malawian kwacha"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:483
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:488
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:493
+msgid "Mauritian rupee"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:498
+msgid "Mexican peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:504
+msgid "Myanma kyat"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:509
+msgid "Moldovan leu"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:514
+msgid "Mongolian tugrik"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:519
+msgid "Moroccan dirham"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:525
+msgid "Mozambican metical"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:530
+msgid "Namibian dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:535
+msgid "Nepalese rupee"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:540
+msgid "Netherlands Antillean gulden"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:545
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:551
+msgid "New Zealand dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:557
+msgid "Nicaraguan cordoba"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:563
+msgid "Nigerian naira"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:569
+msgid "North Korean won"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:575
+msgid "Norwegian krone"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:580
+msgid "Omani rial"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:586
+msgid "Paanga"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:591
+msgid "Pakistani rupee"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:597
+msgid "Panamanian balboa"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:603
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:608
+msgid "Paraguayan guarani"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:613
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:618
+msgid "Philippine peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:623
+msgid "Polish zloty"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:629
+msgid "Qatari riyal"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:635
+msgid "Romanian leu"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:640
+msgid "Russian ruble"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:645
+msgid "Rwandan franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:650
+msgid "Saint Helena pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:655
+msgid "Samoan tala"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:660
+msgid "Sao Tome and Principe dobra"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:665
+msgid "Saudi riyal"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:671
+msgid "Seychellois rupee"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:676
+msgid "Serbian dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:681
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:686
+msgid "Singapore dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:692
+msgid "Syrian pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:698
+msgid "Slovak koruna"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:703
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:708
+msgid "Somali shilling"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:713
+msgid "South African rand"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:718
+msgid "South Korean won"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:724
+msgid "Special Drawing Rights"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:729
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:735
+msgid "Sudanese pound"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:740
+msgid "Surinamese dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:745
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:750
+msgid "Swedish krona"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:755
+msgid "Swiss franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:761
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:766
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:771
+msgid "Thai baht"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:776
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:781
+msgid "Tunisian dinar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:786
+msgid "Turkish new lira"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:791
+msgid "Turkmen manat"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:796
+msgid "UAE dirham"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:801
+msgid "Ugandan shilling"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:806
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:811
+msgid "United States dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:819
+msgid "Uruguayan peso"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:824
+msgid "Uzbekistani som"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:829
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:834
+msgid "Venezuelan bolivar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:839
+msgid "Vietnamese dong"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:844
+msgid "West African CFA franc"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:849
+msgid "Zambian kwacha"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:854
+msgid "Zimbabwean dollar"
+msgstr ""
+
+#: ../class/CPBS.Currency.class.php:859
+msgid "Chinese Yuan"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:14 ../class/CPBS.User.class.php:257
+#: ../template/admin/meta_box_booking_form.php:162
+#: ../template/admin/meta_box_coupon.php:195
+#: ../template/admin/meta_box_coupon.php:208
+#: ../template/admin/meta_box_price_rule.php:35
+#: ../template/admin/meta_box_price_rule.php:52
+#: ../template/admin/meta_box_price_rule.php:69
+#: ../template/admin/meta_box_price_rule.php:106
+#: ../template/admin/meta_box_price_rule.php:552
+#: ../template/admin/meta_box_price_rule.php:565
+msgid "- None -"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:15
+msgid "SSL"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:16
+msgid "TLS"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:59
+#: ../class/CPBS.EmailAccount.class.php:60
+#: ../class/CPBS.EmailAccount.class.php:65
+#: ../class/CPBS.EmailAccount.class.php:71
+msgid "E-mail Accounts"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:62
+msgid "Add New E-mail Account"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:63
+msgid "Edit E-mail Account"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:64
+msgid "New E-mail Account"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:66
+msgid "View E-mail Account"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:67
+msgid "Search E-mail Accounts"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:68
+msgid "No E-mail Accounts Found"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:69
+msgid "No E-mail Accounts in Trash"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:230
+#: ../template/admin/meta_box_email_account.php:8
+msgid "Sender"
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:277
+msgid "Cannot set details needed to send an e-mail message."
+msgstr ""
+
+#: ../class/CPBS.EmailAccount.class.php:331
+msgid "Test message"
+msgstr ""
+
+#: ../class/CPBS.ExchangeRateProvider.class.php:14
+#: ../template/admin/option.php:53 ../template/admin/option_general.php:196
+msgid "Fixer.io"
+msgstr ""
+
+#: ../class/CPBS.ExchangeRateProvider.class.php:67
+msgid "Exchange rates have been imported. Page will be reloaded..."
+msgstr ""
+
+#: ../class/CPBS.ExchangeRateProvider.class.php:74
+msgid "Exchange rates cannot be imported."
+msgstr ""
+
+#: ../class/CPBS.GeoLocation.class.php:16
+msgid "KeyCDN [keycdn.com]"
+msgstr ""
+
+#: ../class/CPBS.GeoLocation.class.php:21
+msgid "IP-API [ip-api.com]"
+msgstr ""
+
+#: ../class/CPBS.GeoLocation.class.php:26
+msgid "ipstack [ipstack.com]"
+msgstr ""
+
+#: ../class/CPBS.GoogleCalendar.class.php:63
+msgid "Client: "
+msgstr ""
+
+#: ../class/CPBS.GoogleCalendar.class.php:63
+msgid "Space: "
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:14
+msgid "Top center"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:15
+msgid "Top left"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:16
+msgid "Top right"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:17
+msgid "Left top"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:18
+msgid "Right top"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:19
+msgid "Left center"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:20
+msgid "Right center"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:21
+msgid "Left bottom"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:22
+msgid "Right bottom"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:23
+msgid "Bottom center"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:24
+msgid "Bottom left"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:25
+msgid "Bottom right"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:30
+msgid "Roadmap"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:31
+msgid "Satellite"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:32
+msgid "Hybrid"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:33
+msgid "Terrain"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:39
+msgid "Horizontal Bar"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:40
+msgid "Dropdown Menu"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:45
+msgid "Tolls"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:46
+msgid "Highways"
+msgstr ""
+
+#: ../class/CPBS.GoogleMap.class.php:47
+msgid "Ferries"
+msgstr ""
+
+#: ../class/CPBS.Helper.class.php:441
+#: ../template/admin/meta_box_booking_form.php:31
+#: ../template/admin/option_general.php:182
+msgid "Copied!"
+msgstr ""
+
+#: ../class/CPBS.Helper.class.php:441
+#: ../template/admin/meta_box_booking_form.php:31
+#: ../template/admin/option_general.php:182
+msgid "Copy"
+msgstr ""
+
+#: ../class/CPBS.Helper.class.php:456
+msgid "From: "
+msgstr ""
+
+#: ../class/CPBS.Helper.class.php:459
+msgid "To: "
+msgstr ""
+
+#: ../class/CPBS.Helper.class.php:475 ../class/CPBS.PriceRule.class.php:745
+#: ../template/admin/meta_box_booking_extra.php:39
+#: ../template/admin/meta_box_booking_extra.php:48
+#: ../template/admin/meta_box_booking_form.php:81
+#: ../template/admin/meta_box_booking_form.php:108
+#: ../template/admin/meta_box_booking_form.php:183
+#: ../template/admin/meta_box_booking_form.php:194
+#: ../template/admin/meta_box_booking_form.php:218
+#: ../template/admin/meta_box_booking_form.php:231
+#: ../template/admin/meta_box_booking_form.php:286
+#: ../template/admin/meta_box_booking_form.php:296
+#: ../template/admin/meta_box_booking_form.php:310
+#: ../template/admin/meta_box_booking_form.php:320
+#: ../template/admin/meta_box_booking_form.php:330
+#: ../template/admin/meta_box_booking_form.php:340
+#: ../template/admin/meta_box_booking_form.php:350
+#: ../template/admin/meta_box_booking_form.php:364
+#: ../template/admin/meta_box_booking_form.php:403
+#: ../template/admin/meta_box_booking_form.php:426
+#: ../template/admin/meta_box_booking_form.php:851
+#: ../template/admin/meta_box_booking_form.php:861
+#: ../template/admin/meta_box_email_account.php:38
+#: ../template/admin/meta_box_email_account.php:95
+#: ../template/admin/meta_box_location.php:208
+#: ../template/admin/meta_box_location.php:797
+#: ../template/admin/meta_box_location.php:810
+#: ../template/admin/meta_box_location.php:823
+#: ../template/admin/meta_box_location.php:950
+#: ../template/admin/meta_box_location.php:1083
+#: ../template/admin/meta_box_location.php:1098
+#: ../template/admin/meta_box_location.php:1110
+#: ../template/admin/meta_box_location.php:1126
+#: ../template/admin/meta_box_location.php:1137
+#: ../template/admin/meta_box_location.php:1162
+#: ../template/admin/meta_box_location.php:1215
+#: ../template/admin/meta_box_location.php:1269
+#: ../template/admin/meta_box_location.php:1306
+#: ../template/admin/meta_box_price_rule.php:826
+#: ../template/admin/option_general.php:143
+#: ../template/admin/option_payment.php:22
+msgid "Enable"
+msgstr ""
+
+#: ../class/CPBS.Helper.class.php:476 ../class/CPBS.PriceRule.class.php:745
+#: ../template/admin/meta_box_booking_extra.php:41
+#: ../template/admin/meta_box_booking_extra.php:50
+#: ../template/admin/meta_box_booking_form.php:83
+#: ../template/admin/meta_box_booking_form.php:100
+#: ../template/admin/meta_box_booking_form.php:110
+#: ../template/admin/meta_box_booking_form.php:185
+#: ../template/admin/meta_box_booking_form.php:196
+#: ../template/admin/meta_box_booking_form.php:220
+#: ../template/admin/meta_box_booking_form.php:233
+#: ../template/admin/meta_box_booking_form.php:288
+#: ../template/admin/meta_box_booking_form.php:298
+#: ../template/admin/meta_box_booking_form.php:312
+#: ../template/admin/meta_box_booking_form.php:322
+#: ../template/admin/meta_box_booking_form.php:332
+#: ../template/admin/meta_box_booking_form.php:342
+#: ../template/admin/meta_box_booking_form.php:352
+#: ../template/admin/meta_box_booking_form.php:366
+#: ../template/admin/meta_box_booking_form.php:405
+#: ../template/admin/meta_box_booking_form.php:428
+#: ../template/admin/meta_box_booking_form.php:853
+#: ../template/admin/meta_box_booking_form.php:863
+#: ../template/admin/meta_box_email_account.php:40
+#: ../template/admin/meta_box_email_account.php:97
+#: ../template/admin/meta_box_location.php:210
+#: ../template/admin/meta_box_location.php:799
+#: ../template/admin/meta_box_location.php:812
+#: ../template/admin/meta_box_location.php:825
+#: ../template/admin/meta_box_location.php:952
+#: ../template/admin/meta_box_location.php:1085
+#: ../template/admin/meta_box_location.php:1100
+#: ../template/admin/meta_box_location.php:1112
+#: ../template/admin/meta_box_location.php:1128
+#: ../template/admin/meta_box_location.php:1139
+#: ../template/admin/meta_box_location.php:1164
+#: ../template/admin/meta_box_location.php:1217
+#: ../template/admin/meta_box_location.php:1271
+#: ../template/admin/meta_box_location.php:1308
+#: ../template/admin/meta_box_price_rule.php:828
+#: ../template/admin/option_general.php:42
+#: ../template/admin/option_general.php:145
+#: ../template/admin/option_payment.php:24
+msgid "Disable"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:14
+msgid "Car 01"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:15
+msgid "Car 02"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:16
+msgid "Camper"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:17
+msgid "Truck"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:18
+msgid "Heavy truck"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:19
+msgid "Bus"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:20
+msgid "Two-wheeled vehicle"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:21
+msgid "Scooter"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:22
+msgid "Bike"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:23
+msgid "Caravan"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:24
+msgid "Reserved space"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:25
+msgid "Locked space"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:26
+msgid "Privileged space"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:27
+msgid "Electric car"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:28
+msgid "Private space"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:29
+msgid "Covered space"
+msgstr ""
+
+#: ../class/CPBS.IconFeature.class.php:30
+msgid "Guarded space"
+msgstr ""
+
+#: ../class/CPBS.LengthUnit.class.php:14
+msgid "Meters"
+msgstr ""
+
+#: ../class/CPBS.LengthUnit.class.php:14
+msgid "m"
+msgstr ""
+
+#: ../class/CPBS.LengthUnit.class.php:15
+msgid "Feets"
+msgstr ""
+
+#: ../class/CPBS.LengthUnit.class.php:15
+msgid "ft"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:66 ../class/CPBS.Location.class.php:67
+#: ../class/CPBS.Location.class.php:72 ../class/CPBS.Location.class.php:78
+#: ../class/CPBS.PriceRule.class.php:700
+#: ../template/admin/meta_box_booking_extra.php:8
+#: ../template/admin/meta_box_booking_extra.php:118
+#: ../template/admin/meta_box_booking_form.php:35
+#: ../template/admin/meta_box_price_rule.php:22
+#: ../template/admin/meta_box_price_rule.php:48
+msgid "Locations"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:69
+msgid "Add New Location"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:70
+msgid "Edit Location"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:71
+msgid "New Location"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:73
+msgid "View Location"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:74
+msgid "Search Locations"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:75
+msgid "No Locations Found"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:76
+msgid "No Locations in Trash"
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:245 ../class/CPBS.Location.class.php:252
+msgid "New booking is received."
+msgstr ""
+
+#: ../class/CPBS.Location.class.php:710
+#: ../template/admin/meta_box_location.php:23
+#: ../template/admin/meta_box_location.php:434
+msgid "Address"
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:18
+msgid "Sending an notification about new booking to the customer."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:22
+msgid "Sending an notification about new booking on defined e-mail addresses."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:26
+msgid ""
+"Sending an notification about new changes in the booking to the customer."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:33 ../class/CPBS.LogManger.class.php:40
+#: ../class/CPBS.LogManger.class.php:47
+msgid "Sending an notification about new booking on defined phone number."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:54
+msgid "Adding a new event to the calendar."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:58
+msgid "Getting a calendar list."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:62
+msgid "Getting token."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:69
+msgid "Getting country information based on customer IP address."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:76 ../class/CPBS.LogManger.class.php:87
+msgid "Creating a payment."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:80 ../class/CPBS.LogManger.class.php:91
+msgid "Receiving a payment."
+msgstr ""
+
+#: ../class/CPBS.LogManger.class.php:98
+msgid "Importing an exchange rates."
+msgstr ""
+
+#: ../class/CPBS.Notice.class.php:46
+msgid "Error"
+msgstr ""
+
+#: ../class/CPBS.Notice.class.php:47
+msgid "Changes can not be saved."
+msgstr ""
+
+#: ../class/CPBS.Notice.class.php:51
+msgid "Success"
+msgstr ""
+
+#: ../class/CPBS.Notice.class.php:52
+msgid "All changes have been saved."
+msgstr ""
+
+#: ../class/CPBS.Payment.class.php:14
+#: ../template/admin/meta_box_location.php:835
+msgid "Cash"
+msgstr ""
+
+#: ../class/CPBS.Payment.class.php:15
+#: ../template/admin/meta_box_location.php:833 ../template/admin/option.php:49
+msgid "Stripe"
+msgstr ""
+
+#: ../class/CPBS.Payment.class.php:16
+#: ../template/admin/meta_box_location.php:834 ../template/admin/option.php:50
+msgid "PayPal"
+msgstr ""
+
+#: ../class/CPBS.Payment.class.php:17
+#: ../template/admin/meta_box_location.php:836
+msgid "Wire transfer"
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:60
+#: ../class/CPBS.PaymentStripe.class.php:206
+msgid "[1] Receiving a payment."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:67
+#, php-format
+msgid "[2] Booking %s is not found."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:76
+#, php-format
+msgid "[3] Location %s is not found."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:91
+#, php-format
+msgid "[4] Sending a request: %s on address: %s."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:104
+#, php-format
+msgid "[5] Error %s during processing cURL request."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:110
+#, php-format
+msgid "[6] Request cannot be verified: %s."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:123
+#: ../class/CPBS.PaymentStripe.class.php:267
+msgid "[7] Updating a booking about transaction details."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:131
+#: ../class/CPBS.PaymentStripe.class.php:275
+msgid "[11] Updating booking status."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:148
+#: ../class/CPBS.PaymentStripe.class.php:292
+#, php-format
+msgid "New booking \"%s\" has been received"
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:178
+#: ../class/CPBS.PaymentStripe.class.php:322
+msgid "[10] Cannot find a valid booking status."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:183
+#: ../class/CPBS.PaymentStripe.class.php:327
+msgid "[9] Changing status of the booking after successful payment is off."
+msgstr ""
+
+#: ../class/CPBS.PaymentPaypal.class.php:188
+#, php-format
+msgid "[8] Payment status %s is not supported."
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:16
+msgid "Alipay"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:17
+msgid "Cards"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:18
+msgid "iDEAL"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:19
+msgid "FPX"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:20
+msgid "Bacs Direct Debit"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:21
+msgid "Bancontact"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:22
+msgid "Giropay"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:23
+msgid "Przelewy24"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:24
+msgid "EPS"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:25
+msgid "Sofort"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:26
+msgid "SEPA Direct Debit"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:128
+msgid "Car Park Service"
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:219
+msgid "[2] Error during parsing data in JSON format."
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:226
+msgid "[4] Checking a booking."
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:253
+#, php-format
+msgid "[6] Booking %s is found."
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:332
+#, php-format
+msgid "[8] Event %s is not supported."
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:340
+#, php-format
+msgid "[5] Booking %s is not found."
+msgstr ""
+
+#: ../class/CPBS.PaymentStripe.class.php:348
+#, php-format
+msgid "[3] Event %s is not supported."
+msgstr ""
+
+#: ../class/CPBS.Performance.class.php:24
+#, php-format
+msgid "Total time: %s"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:40
+msgid "Space Type"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:41 ../class/CPBS.PlaceType.class.php:46
+#: ../class/CPBS.PlaceType.class.php:52
+msgid "Space Types"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:43
+msgid "Add New Space Type"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:44
+msgid "Edit Space Type"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:45
+msgid "New Space Type"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:47
+msgid "View Space Type"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:48
+msgid "Search Space Types"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:49
+msgid "No Space Types Found"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:50
+msgid "No Space Types in Trash"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:248
+msgid "Thumbnail"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:249
+#: ../template/admin/meta_box_location.php:236
+#: ../template/admin/meta_box_place_type.php:16
+msgid "Dimension"
+msgstr ""
+
+#: ../class/CPBS.PlaceType.class.php:250 ../class/CPBS.PriceRule.class.php:532
+#: ../template/admin/meta_box_booking_form.php:17
+#: ../template/admin/meta_box_place_type.php:10
+#: ../template/admin/meta_box_place_type.php:57
+#: ../template/admin/meta_box_price_rule.php:10
+#: ../template/admin/meta_box_price_rule.php:594
+msgid "Prices"
+msgstr ""
+
+#: ../class/CPBS.Plugin.class.php:584
+msgid "Bookings Calendar"
+msgstr ""
+
+#: ../class/CPBS.Plugin.class.php:584
+msgid "Calendar"
+msgstr ""
+
+#: ../class/CPBS.Plugin.class.php:761
+msgid ""
+"Seems, that demo data has been imported. To make sure if this process has "
+"been successfully completed,please check below content of buffer returned by "
+"external applications."
+msgstr ""
+
+#: ../class/CPBS.Plugin.class.php:766
+msgid "Dummy data cannot be imported."
+msgstr ""
+
+#: ../class/CPBS.Plugin.class.php:886
+#, php-format
+msgid "Please enter your Google Maps API key in %s."
+msgstr ""
+
+#: ../class/CPBS.Plugin.class.php:886 ../template/admin/option.php:8
+msgid "Plugin Options"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:14
+msgid "Set directly in rule"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:15
+msgid "Calculation based on rental dates"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:16
+msgid "Calculation based on rental days quantity (all ranges)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:17
+msgid "Calculation based on rental days quantity (exact range)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:18
+msgid "Calculation based on rental hours quantity (all ranges)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:19
+msgid "Calculation based on rental hours quantity (exact range)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:20
+msgid "Calculation based on rental minutes quantity (all ranges)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:21
+msgid "Calculation based on rental minutes quantity (exact range)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:26
+msgid "- Inherited -"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:27
+msgid "Set value"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:28
+msgid "Increase by value"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:29
+msgid "Decrease by value"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:30
+msgid "Increase by percentage"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:31
+msgid "Decrease by percentage"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:36
+#: ../template/admin/meta_box_place_type.php:98
+#: ../template/admin/meta_box_price_rule.php:643
+msgid "Initial"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:37
+#: ../template/admin/meta_box_place_type.php:128
+#: ../template/admin/meta_box_price_rule.php:685
+msgid "Rental per day"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:38
+#: ../template/admin/meta_box_place_type.php:159
+#: ../template/admin/meta_box_price_rule.php:728
+msgid "Rental per hour"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:39
+#: ../template/admin/meta_box_place_type.php:190
+#: ../template/admin/meta_box_price_rule.php:771
+msgid "Rental per minute"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:44
+msgid "The same dates (days)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:45
+msgid "Different dates (days)"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:175 ../class/CPBS.PriceRule.class.php:181
+#: ../class/CPBS.PriceRule.class.php:187
+msgid "Pricing Rules"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:176
+msgid "Pricing Rule"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:178
+msgid "Add New Pricing Rule"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:179
+msgid "Edit Pricing Rule"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:180
+msgid "New Pricing Rule"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:182
+msgid "View Pricing Rule"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:183
+msgid "Search Pricing Rules"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:184
+msgid "No Pricing Rules Found"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:185
+msgid "No Pricing Rules in Trash"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:531
+msgid "Conditions and details"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:696
+#: ../template/admin/meta_box_price_rule.php:31
+msgid "Booking forms"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:704
+#: ../template/admin/meta_box_price_rule.php:23
+#: ../template/admin/meta_box_price_rule.php:65
+msgid "Park space types"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:708
+msgid "Entry day numbers"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:712
+#: ../template/admin/meta_box_price_rule.php:99
+msgid "Dependency between dates"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:716
+#: ../template/admin/meta_box_price_rule.php:120
+msgid "Rental dates"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:720
+#: ../template/admin/meta_box_price_rule.php:229
+msgid "Rental days quantity"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:724
+#: ../template/admin/meta_box_price_rule.php:334
+msgid "Rental hours quantity"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:728
+#: ../template/admin/meta_box_price_rule.php:439
+msgid "Rental minutes quantity"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:732
+#: ../template/admin/meta_box_coupon.php:191
+#: ../template/admin/meta_box_price_rule.php:548
+msgid "User login status"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:736
+msgid "User group"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:740
+msgid "Priority"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:744
+#: ../template/admin/meta_box_price_rule.php:819
+msgid "Next rule processing"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:758
+msgid "Price source type"
+msgstr ""
+
+#: ../class/CPBS.PriceRule.class.php:838
+msgid "Inherited"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:39 ../class/CPBS.TaxRate.class.php:40
+#: ../class/CPBS.TaxRate.class.php:45 ../class/CPBS.TaxRate.class.php:51
+msgid "Tax Rates"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:42
+msgid "Add New Tax Rate"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:43
+msgid "Edit Tax Rate"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:44
+msgid "New Tax Rate"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:46
+msgid "View Tax Rate"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:47
+msgid "Search Tax Rates"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:48
+msgid "No Tax Rates Found"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:49
+msgid "No Tax Rates in Trash"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:233
+#: ../template/admin/meta_box_booking.php:159
+#: ../template/admin/meta_box_booking.php:281
+#: ../template/admin/meta_box_booking.php:365
+#: ../template/admin/meta_box_place_type.php:80
+#: ../template/admin/meta_box_price_rule.php:625
+#: ../template/admin/meta_box_tax_rate.php:13
+msgid "Value"
+msgstr ""
+
+#: ../class/CPBS.TaxRate.class.php:254
+msgid " (default)"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:15
+msgid "Logged"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:16
+msgid "Non-logged"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:80 ../class/CPBS.User.class.php:82
+msgid "User Groups"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:81
+msgid "User Group"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:83
+msgid "Search User Groups"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:84
+msgid "Popular User Groups"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:85
+msgid "All User Groups"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:86
+msgid "Edit User Group"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:87
+msgid "Update User Group"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:88
+msgid "Add New User Group"
+msgstr ""
+
+#: ../class/CPBS.User.class.php:89
+msgid "New User Group Name"
+msgstr ""
+
+#: ../class/CPBS.Widget.BookingForm.class.php:12
+#: ../vc/vc_cpbs_booking_form.php:15
+msgid "Car Park Booking Form"
+msgstr ""
+
+#: ../class/CPBS.Widget.BookingForm.class.php:12
+msgid "Displays booking form."
+msgstr ""
+
+#: ../class/CPBS.WooCommerce.class.php:217
+#, php-format
+msgid "Tax %01.2f"
+msgstr ""
+
+#: ../class/CPBS.WooCommerce.class.php:445
+msgid ""
+"This order has corresponding booking from \"Car Park Booking System\" "
+"plugin. Click on button below to see its details in new window."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:107
+#: ../library/wordpress-importer/class-wp-import.php:116
+#: ../library/wordpress-importer/class-wp-import.php:167
+#: ../library/wordpress-importer/class-wp-import.php:171
+#: ../library/wordpress-importer/class-wp-import.php:180
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:108
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:151
+msgid "All done."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:151
+msgid "Have fun!"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:152
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:172
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:188
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:213
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:241
+msgid "Assign Authors"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:242
+msgid ""
+"To make it simpler for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site, such as your primary administrator account."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:244
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:254
+msgid "Import Attachments"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:257
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:261
+msgid "Submit"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:275
+msgid "Import author:"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:290
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:293
+msgid "as a new user:"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:303
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:305
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:314
+msgid "- Select -"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:373
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:432
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:483
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:544
+#: ../library/wordpress-importer/class-wp-import.php:792
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:635
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:676
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:753
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:939
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:946
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1013
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1031
+msgid "Invalid file type"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1075
+msgid "Could not create temporary file."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1097
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1113
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1125
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1132
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1137
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1143
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1175
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1190
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1312
+msgid "Import WordPress"
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1319
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1334
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../library/wordpress-importer/class-wp-import.php:1335
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../library/wordpress-importer/parsers/class-wxr-parser-regex.php:102
+#: ../library/wordpress-importer/parsers/class-wxr-parser-simplexml.php:46
+#: ../library/wordpress-importer/parsers/class-wxr-parser-simplexml.php:52
+#: ../library/wordpress-importer/parsers/class-wxr-parser-xml.php:107
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../library/wordpress-importer/parsers/class-wxr-parser-simplexml.php:33
+#: ../library/wordpress-importer/parsers/class-wxr-parser-simplexml.php:41
+#: ../library/wordpress-importer/parsers/class-wxr-parser.php:45
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../library/wordpress-importer/parsers/class-wxr-parser.php:46
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../library/wordpress-importer/wordpress-importer.php:63
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:12
+#: ../template/admin/meta_box_booking_extra.php:7
+#: ../template/admin/meta_box_booking_form.php:8
+#: ../template/admin/meta_box_coupon.php:8
+#: ../template/admin/meta_box_location.php:21
+#: ../template/admin/meta_box_location.php:750
+#: ../template/admin/meta_box_place_type.php:9
+#: ../template/admin/meta_box_price_rule.php:8
+#: ../template/admin/meta_box_price_rule.php:21
+#: ../template/admin/meta_box_tax_rate.php:7 ../template/admin/option.php:31
+#: ../template/email_booking.php:55
+msgid "General"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:13
+#: ../template/admin/meta_box_booking.php:112
+msgid "Billing"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:15
+msgid "Extras"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:17
+#: ../template/admin/meta_box_location.php:756
+#: ../template/email_booking.php:350 ../template/email_booking.php:357
+msgid "Payment"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:21
+msgid "Booking ID"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:23
+#: ../template/admin/meta_box_booking.php:692
+#: ../template/admin/meta_box_email_account.php:34
+#: ../template/admin/meta_box_location.php:1157
+#: ../template/admin/meta_box_location.php:1211
+#: ../template/admin/meta_box_location.php:1263
+#: ../template/email_booking.php:66
+msgid "Status"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:24
+msgid "Booking status."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:38 ../template/email_booking.php:75
+#: ../template/email_report.php:64
+msgid "Entry date and time"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:39
+msgid "Entry date and time."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:45 ../template/email_booking.php:79
+#: ../template/email_report.php:68
+msgid "Exit date and time"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:46
+msgid "Exit date and time."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:53
+#: ../template/admin/meta_box_booking_extra.php:129
+msgid "Location."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:56
+#: ../template/admin/meta_box_booking.php:64
+#: ../template/admin/meta_box_booking.php:262
+#: ../template/admin/meta_box_booking.php:398
+msgid "Edit"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:61
+#: ../template/admin/meta_box_booking.php:259
+msgid "Space type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:68 ../template/email_booking.php:103
+msgid "Order total amount"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:69
+msgid "Order total amount."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:79
+msgid "Comments to order"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:80
+msgid "Client comments."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:91
+#: ../template/admin/meta_box_coupon.php:15
+msgid "Coupon code"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:92
+msgid "Coupon code."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:99
+#: ../template/admin/meta_box_coupon.php:92
+msgid "Percentage discount."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:113
+msgid "Billing."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:119
+#: ../template/admin/meta_box_location.php:1312
+msgid "ID"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:121
+msgid "ID."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:129
+msgid "Name of the item."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:135
+msgid "Unit"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:137
+msgid "Name of the unit."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:145
+#: ../template/admin/meta_box_booking.php:351
+#: ../template/admin/meta_box_location.php:246
+#: ../template/admin/meta_box_location.php:322
+msgid "Quantity."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:153
+#: ../template/admin/meta_box_booking.php:359
+msgid "Net unit price."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:161
+#: ../template/admin/meta_box_booking.php:367
+msgid "Net value."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:169
+#: ../template/admin/meta_box_booking.php:375
+msgid "Tax rate in percentage."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:175
+#: ../template/admin/meta_box_booking.php:381
+msgid "Total amount"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:177
+#: ../template/admin/meta_box_booking.php:383
+msgid "Total gross amount."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:266
+msgid "Space prices"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:267
+msgid "Base prices of the space."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:273
+msgid "Price name"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:275
+msgid "Price name."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:283
+#: ../template/admin/meta_box_place_type.php:82
+#: ../template/admin/meta_box_price_rule.php:627
+msgid "Value."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:289
+#: ../template/admin/meta_box_booking_extra.php:151
+msgid "Tax rate"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:291
+#: ../template/admin/meta_box_booking_extra.php:153
+msgid "Tax rate."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:334
+msgid "Booking extras"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:335
+msgid "List of addons ordered."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:341
+#: ../template/admin/meta_box_email_account.php:16
+#: ../template/admin/meta_box_location.php:228
+#: ../template/admin/meta_box_location.php:296
+#: ../template/admin/meta_box_place_type.php:64
+#: ../template/admin/meta_box_price_rule.php:601
+msgid "Name"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:343
+#: ../template/admin/meta_box_email_account.php:17
+#: ../template/admin/meta_box_location.php:230
+#: ../template/admin/meta_box_location.php:298
+#: ../template/admin/meta_box_place_type.php:66
+#: ../template/admin/meta_box_price_rule.php:603
+msgid "Name."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:442 ../template/email_booking.php:211
+msgid "Client details"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:444
+msgid "Client contact details."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:447
+msgid "First name:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:451
+msgid "Last name:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:455
+#: ../template/admin/meta_box_location.php:478
+msgid "E-mail address:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:459
+#: ../template/admin/meta_box_location.php:470
+msgid "Phone number:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:471 ../template/email_booking.php:243
+msgid "Billing address"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:473
+msgid "Billing address details."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:476
+msgid "Company name:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:480
+msgid "Tax number:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:484
+msgid "Street name:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:488
+#: ../template/admin/meta_box_location.php:441
+msgid "Street number:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:492
+#: ../template/admin/meta_box_location.php:449
+msgid "City:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:496
+#: ../template/admin/meta_box_location.php:453
+msgid "State:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:500
+msgid "Postal code:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:504
+#: ../template/admin/meta_box_location.php:457
+msgid "Country:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:535
+msgid "Agreements."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:542
+msgid "Agreement"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:544
+#: ../template/admin/meta_box_booking_form.php:724
+msgid "Text of the agreement."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:550
+msgid "Customer reply"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:552
+msgid "Customer reply."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:569
+#: ../template/admin/meta_box_booking_form.php:613
+#: ../template/admin/meta_box_booking_form.php:670
+#: ../template/admin/meta_box_tax_rate.php:28
+msgid "Yes"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:569
+#: ../template/admin/meta_box_booking_form.php:614
+#: ../template/admin/meta_box_booking_form.php:671
+#: ../template/admin/meta_box_tax_rate.php:30
+msgid "No"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:591
+msgid "Payment details"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:593
+msgid "Payment details."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:596
+msgid "Payment method:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:605
+msgid "Transactions"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:607
+msgid "List of registered transactions for this payment."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:621
+#: ../template/admin/meta_box_booking.php:686
+msgid "Transaction ID"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:622
+#: ../template/admin/meta_box_booking.php:687
+msgid "Transaction ID."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:627
+#: ../template/admin/meta_box_booking_form.php:546
+msgid "Type"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:628
+#: ../template/admin/meta_box_booking.php:693
+msgid "Type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:633
+#: ../template/admin/meta_box_booking.php:698
+#: ../template/admin/meta_box_location.php:526
+#: ../template/admin/meta_box_price_rule.php:24
+msgid "Date"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:634
+#: ../template/admin/meta_box_booking.php:699
+#: ../template/admin/meta_box_location.php:528
+msgid "Date."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:639
+#: ../template/admin/meta_box_booking.php:704
+msgid "Details"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:640
+#: ../template/admin/meta_box_location.php:1158
+#: ../template/admin/meta_box_location.php:1212
+#: ../template/admin/meta_box_location.php:1265
+msgid "Status."
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:656
+#: ../template/admin/meta_box_booking.php:721
+msgid "Toggle details"
+msgstr ""
+
+#: ../template/admin/meta_box_booking.php:705
+msgid "Details."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:12
+msgid "Booking extra ID"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:14
+#: ../template/admin/meta_box_place_type.php:72
+#: ../template/admin/meta_box_price_rule.php:609
+msgid "Description"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:15
+msgid "Description of the additive."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:22
+msgid "Define quantity."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:24
+msgid "Default:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:28
+#: ../template/admin/meta_box_location.php:67
+msgid "Minimum:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:32
+#: ../template/admin/meta_box_location.php:71
+msgid "Maximum:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:36
+msgid "Readonly (customer is not able to change quantity):"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:45
+msgid "Equal to number of rental days (works for \"Day\" billing type only):"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:55
+msgid "State of \"Select\" button"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:57
+msgid "State of the \"Select\" booking add-ons button."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:58
+msgid "\"Not selected\" means, that button will not be checked by default."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:59
+msgid ""
+"\"Selected\" means, that button will be checked by default, but customer is "
+"able to uncheck it."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:60
+msgid ""
+"\"Mandatory\" means, that button will be checked by default and customer is "
+"not able to uncheck it."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:64
+msgid "Not selected"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:66
+msgid "Selected"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:68
+#: ../template/admin/meta_box_booking_form.php:378
+#: ../template/admin/meta_box_booking_form.php:554
+msgid "Mandatory"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:74
+msgid ""
+"Price settings. You can also set prices and tax rates for each location "
+"separately in tab named \"Locations\"."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:77
+msgid "Net price:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:81
+msgid "Tax rate:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:85
+#: ../template/admin/meta_box_booking_extra.php:190
+#: ../template/admin/meta_box_place_type.php:115
+#: ../template/admin/meta_box_place_type.php:146
+#: ../template/admin/meta_box_place_type.php:177
+#: ../template/admin/meta_box_place_type.php:208
+#: ../template/admin/meta_box_price_rule.php:672
+#: ../template/admin/meta_box_price_rule.php:715
+#: ../template/admin/meta_box_price_rule.php:758
+#: ../template/admin/meta_box_price_rule.php:801
+#: ../template/admin/option_general.php:93
+#: ../template/admin/option_general.php:111
+#: ../template/admin/option_general.php:154
+msgid "- Not set -"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:95
+msgid "Price type:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:120
+msgid ""
+"Set booking add-ons availability for locations and (if its is needed) price "
+"with tax."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:135
+#: ../template/admin/meta_box_location.php:24
+msgid "Availability"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:137
+msgid "Set availability in location."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:145
+msgid "Net price."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:175
+msgid "Available"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:177
+msgid "Not available"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_extra.php:183
+msgid "Enter price."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:9
+msgid "Form elements"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:10
+msgid "Styles"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:11
+msgid "Google Maps"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:18
+msgid "Look & feel"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:22
+msgid "Booking form ID"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:24
+msgid "Shortcode"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:25
+msgid "Copy and paste the shortcode on a page."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:37
+msgid "Select at least one location."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:52
+msgid "Default booking status"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:53
+msgid "Default booking status of new order."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:67
+#: ../template/admin/option.php:55
+msgid "Geolocation"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:68
+msgid "Enable or disable geolocation."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:71
+msgid "Client side"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:73
+msgid "Server side"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:78
+msgid "Enable or disable WooCommerce support for this booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:87
+msgid "WooCommerce account"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:89
+msgid ""
+"Enable or disable possibility to create and login via wooCommerce account."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:90
+msgid "\"Disable\" means that login and register form will not be displayed."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:91
+msgid ""
+"\"Enable as option\" means that both forms will be available, but logging "
+"and/or creating an account depends on user preferences."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:92
+msgid ""
+"\"Enable as mandatory\" means that user have to be registered and logged "
+"before he sends a booking."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:96
+msgid "Enable as option"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:98
+msgid "Enable as mandatory"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:105
+msgid "Enable or disable coupons for this booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:114
+msgid "Spaces sorting"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:115
+msgid "Select sorting options of spaces in booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:126
+msgid "Maximum number of dates"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:128
+msgid ""
+"Maximum number of the same entry/exit dates modified by the given interval."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:131
+msgid "Number of dates (leave empty in case of unlimited):"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:135
+msgid "Interval (in minutes):"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:140
+msgid "Rounding to the full day"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:142
+msgid ""
+"Define number of hours, equal or greater these from the booking, for which "
+"the rental period should be rounded to the full day."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:143
+msgid ""
+"This option works only for a \"Day + hour II\" billing type. Allowed are "
+"integer values from 0 to 23."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:154
+msgid "Currencies"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:156
+msgid "Select available currencies."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:157
+msgid ""
+"You can set exchange rates for each selected currency in plugin options."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:158
+msgid ""
+"You can run booking form with particular currency by adding parameter "
+"\"currency=CODE\" to the query string of page on which booking form is "
+"located."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:171
+msgid "Minimum order value"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:173
+msgid "Specify minimum gross value of the order."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:178
+msgid "Hide fees"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:179
+msgid ""
+"Hide all additional fees in booking summary and include them to the price of "
+"selected space."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:189
+msgid "Display net prices"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:190
+msgid "Display net prices and tax separately in booking summary."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:205
+msgid "Step #1"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:206
+msgid "Step #2"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:207
+msgid "Step #3"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:208
+msgid "Step #4"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:209
+msgid "Step #5"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:214
+msgid "Form preloader"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:215
+msgid "Enable or disable form preloader."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:224
+msgid "Top navigation"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:226
+msgid "Enable or disable top navigation."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:238
+msgid "Location details window opening"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:239
+msgid ""
+"Define after which action, the window with location details should be opened."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:242
+msgid "After clicking on the map marker"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:244
+msgid "After selecting from the location list"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:246
+msgid "After clicking on the \"More details\" link"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:254
+msgid "Timepicker"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:256
+msgid "Timepicker settings."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:260
+msgid ""
+"Interval - the amount of time, in minutes, between each item in the dropdown."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:261
+msgid "Allowed are integer values from 1 to 9999."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:269
+msgid "Start time for a current date:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:273
+msgid "Timepicker starts based on current time"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:275
+msgid "Timepicker starts based on interval"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:280
+msgid "Entry/exit time field"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:282
+msgid "Enable or disable entry/exit time field in the booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:292
+msgid "Show location drop down list"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:293
+msgid ""
+"Show or hide pickup and return location drop down list if only one is "
+"available."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:306
+msgid "Scroll after selecting a space"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:307
+msgid "Scroll user to booking add-ons section after selecting a space."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:316
+msgid "Redirect after selecting a space"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:317
+msgid "Redirect user to the next step after selecting a space."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:326
+msgid "Show \"Customer details\" button"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:327
+msgid ""
+"Show \"Customer details\" button only if the car park space is selected."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:336
+msgid "Show parking space type dimension"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:337
+msgid "Show parking space dimension on the car park space types list."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:346
+msgid "Show parking spaces number available"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:347
+msgid "Show parking spaces number available on the car park space types list."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:360
+msgid "Sticky summary sidebar"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:361
+msgid "Enable or disable sticky option for summary sidebar."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:370
+msgid "Billing details"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:371
+msgid "Select default state of billing details section."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:374
+msgid "Unchecked"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:376
+msgid "Checked"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:380
+msgid "Hidden"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:384
+msgid "Fields mandatory"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:385
+msgid "Select which fields should be marked as mandatory."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:399
+msgid "Show \"Booking extras\" section in step #3"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:400
+msgid "Show \"Booking extras\" section in step #3 (and hide it in step #2)."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:412
+msgid "There are no settings for this step."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:418
+msgid "\"Thank You\" page"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:420
+msgid "Enable or disable \"Thank You\" page in booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:421
+msgid ""
+"Please note, that disabling this page is available only if wooCommerce "
+"support is enabled."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:422
+msgid ""
+"Then, customer is redirected to checkout page without information, that "
+"order has been sent."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:432
+msgid "\"Back to home\" button on \"Thank you\" page"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:434
+msgid "Enter URL address and label for this button."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:435
+msgid ""
+"This button is displayed if payment processing is disabled or customer "
+"selects wire transfer or cash payment."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:438
+msgid "Label:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:444
+msgid "URL address:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:459
+msgid "Panels"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:461
+msgid ""
+"Table includes list of user defined panels (group of fields) used in client "
+"form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:462
+msgid ""
+"Default tabs \"Contact details\" and \"Billing address\" cannot be modified."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:469
+#: ../template/admin/meta_box_booking_form.php:538
+msgid "Label"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:471
+msgid "Label of the panel."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:477
+#: ../template/admin/meta_box_booking_form.php:493
+#: ../template/admin/meta_box_booking_form.php:512
+#: ../template/admin/meta_box_booking_form.php:586
+#: ../template/admin/meta_box_booking_form.php:640
+#: ../template/admin/meta_box_booking_form.php:697
+#: ../template/admin/meta_box_booking_form.php:730
+#: ../template/admin/meta_box_booking_form.php:746
+#: ../template/admin/meta_box_booking_form.php:765
+#: ../template/admin/meta_box_coupon.php:106
+#: ../template/admin/meta_box_coupon.php:136
+#: ../template/admin/meta_box_coupon.php:171
+#: ../template/admin/meta_box_location.php:119
+#: ../template/admin/meta_box_location.php:149
+#: ../template/admin/meta_box_location.php:183
+#: ../template/admin/meta_box_location.php:328
+#: ../template/admin/meta_box_location.php:365
+#: ../template/admin/meta_box_location.php:405
+#: ../template/admin/meta_box_location.php:550
+#: ../template/admin/meta_box_location.php:596
+#: ../template/admin/meta_box_location.php:650
+#: ../template/admin/meta_box_location.php:688
+#: ../template/admin/meta_box_location.php:708
+#: ../template/admin/meta_box_location.php:731
+#: ../template/admin/meta_box_price_rule.php:154
+#: ../template/admin/meta_box_price_rule.php:179
+#: ../template/admin/meta_box_price_rule.php:209
+#: ../template/admin/meta_box_price_rule.php:263
+#: ../template/admin/meta_box_price_rule.php:288
+#: ../template/admin/meta_box_price_rule.php:318
+#: ../template/admin/meta_box_price_rule.php:368
+#: ../template/admin/meta_box_price_rule.php:393
+#: ../template/admin/meta_box_price_rule.php:423
+#: ../template/admin/meta_box_price_rule.php:473
+#: ../template/admin/meta_box_price_rule.php:498
+#: ../template/admin/meta_box_price_rule.php:528
+msgid "Remove"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:479
+#: ../template/admin/meta_box_booking_form.php:588
+#: ../template/admin/meta_box_booking_form.php:732
+#: ../template/admin/meta_box_coupon.php:108
+#: ../template/admin/meta_box_location.php:121
+#: ../template/admin/meta_box_location.php:552
+#: ../template/admin/meta_box_price_rule.php:156
+#: ../template/admin/meta_box_price_rule.php:265
+#: ../template/admin/meta_box_price_rule.php:370
+#: ../template/admin/meta_box_price_rule.php:475
+msgid "Remove this entry."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:488
+#: ../template/admin/meta_box_booking_form.php:507
+#: ../template/admin/meta_box_booking_form.php:597
+#: ../template/admin/meta_box_booking_form.php:654
+msgid "Enter label."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:522
+#: ../template/admin/meta_box_booking_form.php:707
+#: ../template/admin/meta_box_booking_form.php:775
+#: ../template/admin/meta_box_coupon.php:182
+#: ../template/admin/meta_box_location.php:193
+#: ../template/admin/meta_box_location.php:415
+#: ../template/admin/meta_box_location.php:660
+#: ../template/admin/meta_box_location.php:741
+#: ../template/admin/meta_box_price_rule.php:220
+#: ../template/admin/meta_box_price_rule.php:329
+#: ../template/admin/meta_box_price_rule.php:434
+#: ../template/admin/meta_box_price_rule.php:539
+msgid "Add"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:527
+msgid "Fields"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:529
+msgid "Table includes list of user defined fields used in client form."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:530
+msgid ""
+"Default fields located in tabs \"Contact details\" and \"Billing address\" "
+"cannot be modified."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:531
+msgid ""
+"If the new field is marked as \"Mandatory\", \"Error message\" field in the "
+"table cannot be empty."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:540
+msgid "Label of the field."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:548
+msgid "Field type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:556
+msgid "Mandatory."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:562
+msgid "Values"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:564
+msgid "List of possible values to choose separated by semicolon."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:570
+msgid "Error message"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:572
+msgid "Error message displayed in tooltip when field is empty."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:578
+msgid "Panel"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:580
+msgid "Panel in which field has to be located."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:620
+#: ../template/admin/meta_box_booking_form.php:677
+msgid "Enter values of list separated by semicolon."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:625
+#: ../template/admin/meta_box_booking_form.php:682
+msgid "Enter error message."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:714
+msgid ""
+"Table includes list of agreements needed to accept by customer before "
+"sending the booking."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:715
+msgid ""
+"Each agreement consists of approval field (checkbox) and text of agreement."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:741
+#: ../template/admin/meta_box_booking_form.php:760
+msgid "Enter text."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:784
+msgid "Colors"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:786
+msgid "Specify color for each group of elements."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:793
+msgid "Group number"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:795
+msgid "Group number."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:801
+msgid "Default color"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:803
+msgid "Default value of the color."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:809
+msgid "Color"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:811
+msgid "New value (in HEX) of the color."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:847
+msgid "Google Maps enable"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:848
+msgid "Enable or disable Google Maps."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:857
+msgid "Scrollwheel"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:858
+msgid "Enable or disable wheel scrolling on the map."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:867
+msgid "Map type control"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:869
+msgid "Enter settings for a map type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:872
+msgid "Type:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:882
+msgid "Zoom"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:884
+msgid "Enter settings for a zoom."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:887
+msgid "Level:"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:895
+#: ../template/admin/widget_booking_form.php:7
+msgid "Style"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:897
+msgid "Enter (in JSON format) styles for map."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:898
+#, php-format
+msgid "You can create your own styles using %s."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_form.php:898
+msgid "Styling Wizard"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:13
+msgid "Coupon ID"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:16
+msgid "Unique code of the coupon."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:22
+msgid "Usage count"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:23
+msgid "Current usage count of the code."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:29
+#: ../template/admin/option_coupon_creator.php:16
+msgid "Usage limit"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:30
+msgid ""
+"Usage limit of the code. Allowed are integer values from range 1-9999. Leave "
+"blank for unlimited."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:36
+#: ../template/admin/option_coupon_creator.php:23
+msgid "Active from"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:37
+#: ../template/admin/option_coupon_creator.php:24
+msgid "Start date. Leave blank for no start date."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:43
+#: ../template/admin/option_coupon_creator.php:30
+msgid "Active to"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:44
+msgid "Stop date. Leave blank for no stop  date."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:51
+msgid "Percentage discount. Allowed are integer numbers from 0-100."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:58
+msgid ""
+"Fixed discount. This discount is used only if percentage discount is set to "
+"0."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:64
+msgid "Discount based on rental days number"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:66
+msgid ""
+"Enter discount (percentage or fixed) for selected range of rental days. This "
+"option works for \"Day\" and \"Day II\" billing types only."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:67
+msgid ""
+"Fixed discount is used only if percentage discount is set to 0. If days "
+"ranges will not be found, default discount from coupon will be applied."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:74
+#: ../template/admin/meta_box_location.php:304
+#: ../template/admin/meta_box_price_rule.php:130
+#: ../template/admin/meta_box_price_rule.php:239
+#: ../template/admin/meta_box_price_rule.php:344
+#: ../template/admin/meta_box_price_rule.php:449
+msgid "From"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:76
+#: ../template/admin/meta_box_price_rule.php:132
+#: ../template/admin/meta_box_price_rule.php:241
+#: ../template/admin/meta_box_price_rule.php:346
+#: ../template/admin/meta_box_price_rule.php:451
+msgid "From."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:82
+#: ../template/admin/meta_box_location.php:312
+#: ../template/admin/meta_box_price_rule.php:138
+#: ../template/admin/meta_box_price_rule.php:247
+#: ../template/admin/meta_box_price_rule.php:352
+#: ../template/admin/meta_box_price_rule.php:457
+msgid "To"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:84
+#: ../template/admin/meta_box_price_rule.php:140
+#: ../template/admin/meta_box_price_rule.php:249
+#: ../template/admin/meta_box_price_rule.php:354
+#: ../template/admin/meta_box_price_rule.php:459
+msgid "To."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:100
+#: ../template/admin/option_coupon_creator.php:46
+msgid "Fixed discount."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:192
+#: ../template/admin/meta_box_price_rule.php:549
+msgid "Apply coupon to all, logged or non-logged in users."
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:204
+#: ../template/admin/meta_box_price_rule.php:561
+msgid "User groups"
+msgstr ""
+
+#: ../template/admin/meta_box_coupon.php:205
+#: ../template/admin/meta_box_price_rule.php:562
+msgid "Apply coupon only to users from selected group(s)."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:9
+msgid "SMTP Authentication"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:10
+msgid "E-mail Testing"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:14
+msgid "E-mail account ID"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:24
+#: ../template/admin/meta_box_location.php:940
+msgid "E-mail address."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:35
+msgid "Enable or disable SMTP Authentication."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:44
+msgid "Username"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:45
+msgid "Username."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:52
+msgid "Password."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:58
+msgid "Host"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:59
+msgid "Host."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:65
+msgid "Port"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:66
+msgid "Port."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:72
+msgid "Secure connection type"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:73
+msgid "Secure connection type."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:87
+msgid "Debug"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:89
+msgid "Enable or disable debugging."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:90
+msgid ""
+"You can check result of debugging in Chrome/Firebug console (after submit "
+"form)."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:91
+msgid ""
+"Please note that this option should be used for debugging only. Once it is "
+"enabled, proper processing booking in last step could not be possible."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:104
+msgid ""
+"Enter receiver e-mail address and click on below button to send testing e-"
+"mail message using details of this account."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:108
+msgid "Receiver e-mail address"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:109
+msgid "Receiver e-mail address."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:115
+msgid "Response"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:116
+msgid "Response from the server."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:118
+#: ../template/admin/meta_box_email_account.php:154
+msgid "No reply from the server."
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:119
+msgid "Send a message"
+msgstr ""
+
+#: ../template/admin/meta_box_email_account.php:147
+msgid "Please enter receiver e-mail address."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:12
+msgid ""
+"Please provide coordinates of location in \"Address\" tab. Otherwise "
+"location will not be available in booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:22
+msgid "Park spaces"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:25
+#: ../template/admin/meta_box_location.php:751 ../template/admin/option.php:37
+msgid "Payments"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:26
+msgid "Notifications"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:27
+#: ../template/admin/meta_box_location.php:1302 ../template/admin/option.php:56
+msgid "Google Calendar"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:31
+msgid "Location ID"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:33
+msgid "Entry period"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:35
+msgid ""
+"Set range (in days/hours/minutes) during which customer can book a space."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:36
+msgid ""
+"Eg. range 1-14 days means that customer can book a space from tomorrow "
+"during next two weeks."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:37
+msgid "Empty values means that entry period is not limited."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:40
+msgid ""
+"From (number of days/hours/minutes - counting from now - since when customer "
+"can book a space):"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:44
+msgid ""
+"To (number of days/hours/minutes - counting from now plus number of days/"
+"hours/minutes from previous field - until when customer can book a space):"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:48
+msgid "Time unit:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:51
+msgid "Days"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:53
+msgid "Hours"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:55
+msgid "Minutes"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:62
+msgid ""
+"Maximum and minimum number of days/hours/minutes to rent a car park space."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:63
+#: ../template/admin/meta_box_location.php:79
+msgid ""
+"Unit depends on selected billing type. Below values are treat as days for "
+"\"Day\" and \"Day II\" billing type, as hours for \"Day + hour\", \"Day + "
+"hour II\" and \"Hour\", as minutes for \"Hour + minute\" and \"Minute\"."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:64
+msgid "Empty or zero values are ignored."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:76
+msgid "Booking period depends on dates"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:78
+msgid ""
+"Maximum and minimum number of days/hours/minutes to rent a car park space a "
+"for defined entry dates."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:80
+msgid ""
+"Below options have higher priority than these defined in section \"Booking "
+"period\"."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:87
+msgid "Start dare"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:89
+#: ../template/admin/meta_box_location.php:674
+msgid "Start date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:95
+#: ../template/admin/meta_box_location.php:680
+msgid "End date"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:97
+#: ../template/admin/meta_box_location.php:682
+msgid "End date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:105
+msgid "Minimum days/hours/minutes count of rental a car park space."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:113
+msgid "Maximum days/hours/minutes count of rental a car park space."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:129
+#: ../template/admin/meta_box_location.php:163
+#: ../template/admin/meta_box_location.php:698
+#: ../template/admin/meta_box_location.php:703
+#: ../template/admin/meta_box_location.php:721
+#: ../template/admin/meta_box_location.php:726
+msgid "Enter start date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:134
+#: ../template/admin/meta_box_location.php:168
+msgid "Enter stop date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:139
+#: ../template/admin/meta_box_location.php:144
+#: ../template/admin/meta_box_location.php:173
+msgid "Enter minimum count of days/hours/minutes."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:178
+msgid "Enter maximum count of days/hours/minutes."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:202
+msgid "Park spaces availability checking"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:204
+msgid ""
+"Select in which way (if at all) plugin has to check if the space is free and "
+"available to book."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:214
+msgid "Park spaces quantity"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:216
+msgid "Enter number of park space quantity for each type."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:217
+msgid "Allowed are integer numbers from range 0-9999."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:238
+msgid "Dimension."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:263
+#, php-format
+msgid "%sx%s m"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:282
+msgid "Park spaces quantity in selected period"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:284
+msgid "Enter number of park space of particular type in the selected period."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:285
+msgid ""
+"This setting has priority than these defined in the \"Park spaces quantity\" "
+"table."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:306
+msgid "Date and time of period start."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:314
+msgid "Date and time of period end."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:330
+msgid "Remove."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:348
+#: ../template/admin/meta_box_location.php:354
+#: ../template/admin/meta_box_location.php:388
+#: ../template/admin/meta_box_location.php:394
+#: ../template/admin/meta_box_location.php:635
+msgid "Enter date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:349
+#: ../template/admin/meta_box_location.php:355
+#: ../template/admin/meta_box_location.php:389
+#: ../template/admin/meta_box_location.php:395
+#: ../template/admin/meta_box_location.php:640
+#: ../template/admin/meta_box_location.php:645
+msgid "Enter time."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:428
+msgid "Start typing to find location."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:435
+msgid "Specify address of the location."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:437
+msgid "Street:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:445
+msgid "Postcode:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:467
+msgid "Contact details"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:468
+msgid "Specify contact details of the location."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:474
+msgid "Fax number:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:483
+msgid "Coordinates"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:484
+msgid "Specify coordinates details (latitude, longitude) of the location."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:486
+msgid "Latitude:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:490
+msgid "Longitude:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:499
+#: ../template/public/public.php:205
+msgid "Business hours"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:501
+msgid "Specify working hours for a day of week or for specific date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:502
+msgid ""
+"If your car park is open 24 hours, enter values 00:00 - 23:59 for a selected "
+"day of week/date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:503
+msgid "You can set multiple hours for the same day of week/date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:510
+msgid "Period type"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:512
+msgid "Type of period: day of week or specific date."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:518
+msgid "Hours type"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:520
+msgid "Type of hours: for entry, exit or both."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:534
+msgid "Start time"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:536
+msgid "Start time."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:542
+msgid "End time"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:544
+msgid "End time."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:564
+#: ../template/admin/meta_box_location.php:617
+msgid "Specific date"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:581
+msgid "Enter date in format."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:586
+msgid "Enter start time."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:591
+msgid "Enter stop time."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:665
+msgid "Exclude dates"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:666
+msgid ""
+"Specify dates not available for booking. Past (or invalid date ranges) will "
+"be removed during saving."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:672
+msgid "Start date"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:690
+msgid "Remove this entry"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:758
+msgid "Select one or more payment methods available in this location."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:759
+msgid ""
+"For some of them you have to enter additional settings in tab named "
+"\"Payments\"."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:774
+msgid "Default payment"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:776
+msgid "Select default payment method."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:780
+msgid "- None - "
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:793
+msgid "Payment selection"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:794
+msgid "Set payment method as mandatory to select by the customer."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:803
+msgid "Payment processing"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:805
+msgid "Enable or disable possibility of paying by booking form."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:806
+msgid ""
+"Disabling this option means that customer can choose payment method, but he "
+"won't be able to pay."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:816
+msgid "WooCommerce payments on step #3"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:818
+msgid ""
+"Enable or disable possibility to choose wooCommerce payment method in step "
+"#3."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:819
+msgid "This option is available if wooCommerce support is enabled."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:840
+#, php-format
+msgid ""
+"You can check possible errors related to processing payments via Stripe "
+"gateway in <a href=\"%s\" target=\"_blank\">\"Plugin Options\" in  \"Log "
+"Manager / Stripe\" tab</a>."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:844
+#: ../template/admin/meta_box_location.php:1176
+msgid "Secret API key"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:845
+#: ../template/admin/meta_box_location.php:852
+#, php-format
+msgid ""
+"You can find more info about keys <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:851
+msgid "Publishable API key"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:858
+msgid "Payment methods"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:859
+msgid ""
+"You can set up each of them in your \"Stripe\" dashboard under \"Settings / "
+"Payment methods\"."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:875
+msgid "Product ID"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:877
+msgid "Product ID. "
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:878
+msgid ""
+"Value of this field will be filled during payment processing. In almost all "
+"cases you should leave it blank."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:885
+#: ../template/admin/meta_box_location.php:956
+msgid "Redirection delay"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:886
+msgid "Duration of redirection delay (in seconds) to the Stripe gateway."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:892
+#: ../template/admin/meta_box_location.php:963
+msgid "\"Success\" URL address"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:893
+#: ../template/admin/meta_box_location.php:964
+msgid "\"Success\" URL address."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:899
+#: ../template/admin/meta_box_location.php:970
+msgid "\"Cancel\" URL address"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:900
+#: ../template/admin/meta_box_location.php:971
+msgid "\"Cancel\" URL address."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:906
+#: ../template/admin/meta_box_location.php:977
+msgid "Booking summary page ID:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:908
+#: ../template/admin/meta_box_location.php:979
+msgid ""
+"Booking summary page is a special page which contains summary of the sent "
+"booking with a link to download a PDF document."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:909
+#: ../template/admin/meta_box_location.php:980
+msgid ""
+"This page (displayed after successfully payment only) has to include "
+"'[cpbs_booking_summary booking_form_id=\"\"]' shortcode\"."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:910
+#: ../template/admin/meta_box_location.php:981
+msgid ""
+"In case if the below field includes valid page ID, URL address entered in "
+"the ' \"Success\" URL address ' field is ignored."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:917
+#: ../template/admin/meta_box_location.php:988
+#: ../template/admin/meta_box_location.php:1007
+#: ../template/admin/meta_box_location.php:1026
+#: ../template/admin/option_general.php:15
+msgid "Logo"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:918
+msgid "Logo:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:921
+#: ../template/admin/meta_box_location.php:992
+#: ../template/admin/meta_box_location.php:1011
+#: ../template/admin/meta_box_location.php:1030
+#: ../template/admin/option_general.php:19
+#: ../template/admin/option_general.php:130
+msgid "Browse"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:925
+#: ../template/admin/meta_box_location.php:996
+#: ../template/admin/meta_box_location.php:1015
+#: ../template/admin/meta_box_location.php:1034
+msgid "Information for customer"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:926
+msgid "Additional information for the customer:"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:935
+#, php-format
+msgid ""
+"You can check possible errors related to processing payments via PayPal "
+"gateway in <a href=\"%s\" target=\"_blank\">\"Plugin Options\" in  \"Log "
+"Manager / PayPal\" tab</a>."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:946
+msgid "Sandbox mode"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:947
+msgid "Sandbox mode."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:957
+msgid "Duration of redirection delay (in seconds) to the PayPal gateway."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:989
+#: ../template/admin/meta_box_location.php:1008
+#: ../template/admin/meta_box_location.php:1027
+msgid "Logo."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:997
+#: ../template/admin/meta_box_location.php:1016
+#: ../template/admin/meta_box_location.php:1035
+msgid "Additional information for customer."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1049
+msgid "E-mail"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1050
+msgid "Vonage SMS"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1051
+msgid "Twilio SMS"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1052 ../template/admin/option.php:54
+msgid "Telegram"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1057
+msgid "Sender e-mail account"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1059
+msgid "Select sender e-mail account."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1064
+msgid " - Not set -"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1072
+msgid "Recipient e-mail addresses"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1073
+msgid "List of recipients e-mail addresses separated by semicolon."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1079
+msgid "New booking notifications sending to customers"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1080
+msgid "Sending an e-mail message about new booking to the customers."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1089
+msgid ""
+"New booking notifications sending to customers in case of successful payment "
+"only"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1091
+msgid ""
+"Sending an e-mail message about new booking to the customers only if the "
+"booking has been paid."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1092
+#: ../template/admin/meta_box_location.php:1120
+msgid ""
+"This option works only for a built-in online payment methods like Stripe and "
+"PayPal."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1093
+msgid ""
+"This option works only if the option \"New booking notifications sending to "
+"customers\" is enabled."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1105
+msgid "New booking notifications sending to defined addresses"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1106
+msgid ""
+"Sending an e-mail message about new booking on the addresses defined on "
+"recipient list."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1117
+msgid ""
+"New booking notifications sending to defined addresses in case of successful "
+"payment only"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1119
+msgid ""
+"Sending an e-mail message about new booking on the addresses defined on "
+"recipient list only if the booking has been paid."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1121
+msgid ""
+"This option works only if the option \"New booking notifications sending to "
+"defined addresses\" is enabled."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1133
+msgid "WooCommerce new booking notifications"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1134
+msgid ""
+"Enable/disable sending wooCommerce e-mail message with notification about "
+"new booking."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1143
+#: ../template/email_booking.php:138
+msgid "Extra information"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1144
+msgid "Extra information added to the message."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1153
+#, php-format
+msgid ""
+"You can find more information about Vonage <a href=\"%s\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1169
+msgid "API key"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1170
+msgid "API key."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1177
+msgid "Secret API key."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1183
+msgid "Sender name"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1184
+msgid "Sender name."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1190
+#: ../template/admin/meta_box_location.php:1242
+msgid "Recipient phone number"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1191
+#: ../template/admin/meta_box_location.php:1243
+msgid "Recipient phone number."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1197
+#: ../template/admin/meta_box_location.php:1249
+#: ../template/admin/meta_box_location.php:1289
+msgid "Message"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1198
+#: ../template/admin/meta_box_location.php:1250
+#: ../template/admin/meta_box_location.php:1290
+msgid "Message."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1207
+#, php-format
+msgid ""
+"You can find more information about Twilio <a href=\"%s\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1221
+msgid "API SID"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1222
+msgid "API SID."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1228
+msgid "API token"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1229
+msgid "API token."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1235
+msgid "Sender phone number"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1236
+msgid "Sender phone number."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1259
+#, php-format
+msgid ""
+"You can find more information about Telegram configuration <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1275
+msgid "Token"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1276
+msgid "Token."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1282
+msgid "Group ID"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1283
+msgid "Group ID."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1303
+msgid "Enable or disable integration with Google Calendar."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1313
+msgid "Google Calendar ID."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1319
+msgid "Settings"
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1320
+msgid "Copy/paste the contents of downloaded *.json file."
+msgstr ""
+
+#: ../template/admin/meta_box_location.php:1368
+msgid "Do you want to fill all address details based on this location?"
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:14
+msgid "Space type ID"
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:18
+msgid ""
+"Enter length and width of space in selected length unit. Available are "
+"values from 0.00 to 9999.99."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:21
+msgid "Width:"
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:27
+msgid "Length:"
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:34
+msgid "Icon"
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:35
+msgid "Select icon."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:46
+msgid "Main color"
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:47
+msgid "Select a color which identify this space type."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:58
+msgid "Prices."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:74
+#: ../template/admin/meta_box_price_rule.php:611
+msgid "Description."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:90
+#: ../template/admin/meta_box_price_rule.php:635
+msgid "Tax."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:103
+#: ../template/admin/meta_box_price_rule.php:648
+msgid "Initial, fixed fee added to the booking."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:133
+#: ../template/admin/meta_box_price_rule.php:690
+msgid "Price for rent a space per day."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:134
+#: ../template/admin/meta_box_price_rule.php:691
+msgid ""
+"This price applies for \"Day\", \"Day II\", \"Day + hour\" and \"Day + hour "
+"II\" billing type only."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:164
+#: ../template/admin/meta_box_price_rule.php:733
+msgid "Price for rent a space per hour."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:165
+#: ../template/admin/meta_box_price_rule.php:734
+msgid ""
+"This price applies for \"Hour\" and \"Hour + minute\" billing type only."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:195
+#: ../template/admin/meta_box_price_rule.php:776
+msgid "Price for rent a space per minute."
+msgstr ""
+
+#: ../template/admin/meta_box_place_type.php:196
+#: ../template/admin/meta_box_price_rule.php:777
+msgid "This price applies for \"Minute\" billing type only."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:9
+msgid "Conditions"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:11
+msgid "Options"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:15
+msgid "Price rule ID"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:25
+msgid "Rental duration"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:32
+msgid "Select booking form(s)."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:49
+msgid "Select location(s)."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:66
+msgid "Select vehicle park space type(s)."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:82
+msgid "Week day number of first rental day"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:83
+msgid "Select the starting day of the rental week."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:86
+msgid "- All days -"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:101
+msgid "Dependency between entry and exit date."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:122
+msgid "Enter rental date(s)."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:123
+#: ../template/admin/meta_box_price_rule.php:232
+#: ../template/admin/meta_box_price_rule.php:337
+#: ../template/admin/meta_box_price_rule.php:442
+msgid ""
+"To use prices defined in below table, you have to choose proper source type "
+"of price in tab named \"Prices\"."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:148
+#: ../template/admin/meta_box_price_rule.php:257
+#: ../template/admin/meta_box_price_rule.php:362
+#: ../template/admin/meta_box_price_rule.php:467
+msgid "Price."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:231
+msgid ""
+"Enter number of rental day(s) (works for \"Day\", \"Day II\", \"Day + hour\" "
+"and \"Day + hour II\" billing types only)."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:336
+msgid ""
+"Enter number of rental hour(s) (works for \"Hour\", \"Hour + minute\", \"Day "
+"+ hour\" and \"Day + hour II\" billing types only) in format HHHH:MM."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:441
+msgid ""
+"Enter number of rental minute(s) (works for \"Minute\" and \"Hour + minute\" "
+"billing type only)."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:580
+msgid "Price source"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:582
+msgid "Select price source."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:595
+msgid "Net prices."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:617
+msgid "Price alter"
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:619
+msgid "Price alter type."
+msgstr ""
+
+#: ../template/admin/meta_box_price_rule.php:821
+msgid ""
+"This option determine, whether prices will be set up based on this rule only "
+"or plugin has to processing next rule based on priority (order)."
+msgstr ""
+
+#: ../template/admin/meta_box_tax_rate.php:11
+msgid "Tax rate ID"
+msgstr ""
+
+#: ../template/admin/meta_box_tax_rate.php:14
+msgid ""
+"Percentage value of tax rate. Floating point values are allowed, up to two "
+"decimal places in the range 0-100."
+msgstr ""
+
+#: ../template/admin/meta_box_tax_rate.php:20
+msgid "Default tax rate"
+msgstr ""
+
+#: ../template/admin/meta_box_tax_rate.php:22
+msgid "Mark this tax rate as default."
+msgstr ""
+
+#: ../template/admin/meta_box_tax_rate.php:23
+msgid ""
+"Default value means, that this tax rate will be pre-selected during adding "
+"new items (e.g space types, pricing rules) in the dashboard."
+msgstr ""
+
+#: ../template/admin/meta_box_tax_rate.php:24
+msgid ""
+"You can have only one default tax rate in the same time. If the other rate "
+"is selected as default, its selection will be removed after saving."
+msgstr ""
+
+#: ../template/admin/option.php:7
+msgid "QuanticaLabs"
+msgstr ""
+
+#: ../template/admin/option.php:17
+#, php-format
+msgid "WordPress Plugin ver. %s"
+msgstr ""
+
+#: ../template/admin/option.php:20
+msgid "Support Forum"
+msgstr ""
+
+#: ../template/admin/option.php:21
+msgid "Plugin site"
+msgstr ""
+
+#: ../template/admin/option.php:34 ../template/admin/option_import_demo.php:3
+msgid "Import demo"
+msgstr ""
+
+#: ../template/admin/option.php:40
+msgid "Coupons creator"
+msgstr ""
+
+#: ../template/admin/option.php:43
+msgid "Exchange rates"
+msgstr ""
+
+#: ../template/admin/option.php:46
+msgid "Log manager"
+msgstr ""
+
+#: ../template/admin/option.php:48
+msgid "Mail"
+msgstr ""
+
+#: ../template/admin/option.php:51
+msgid "Twilio"
+msgstr ""
+
+#: ../template/admin/option.php:52
+msgid "Vonage"
+msgstr ""
+
+#: ../template/admin/option.php:98
+msgid "Envato"
+msgstr ""
+
+#: ../template/admin/option.php:99
+msgid "Facebook"
+msgstr ""
+
+#: ../template/admin/option.php:100
+msgid "Twitter"
+msgstr ""
+
+#: ../template/admin/option.php:101
+msgid "Tumblr"
+msgstr ""
+
+#: ../template/admin/option.php:105
+msgid "Save changes"
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:6
+msgid "Count"
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:8
+msgid "Number of coupons which should be generated."
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:9
+msgid "Allowed are integer numbers from range 1-999."
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:17
+msgid ""
+"Current usage count of the code. Allowed are integer values from range "
+"1-9999. Leave blank for unlimited."
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:31
+msgid "Stop date. Leave blank for no start date."
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:39
+msgid "Percentage discount. Allowed are integer numbers from 1-99."
+msgstr ""
+
+#: ../template/admin/option_coupon_creator.php:52
+msgid "Create coupons"
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:3
+msgid "Update"
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:5
+msgid "Select exchange rate provider."
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:6
+msgid ""
+"For the \"Fixer.io\" provider, you need to enter additional details in "
+"\"General\" tab."
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:7
+msgid "All rates will be replaced during process of importing."
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:19
+msgid "Import exchange rates"
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:22
+msgid "Rates table"
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:24
+msgid ""
+"Enter an exchange rate for selected currencies in relation to base currency."
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:31
+#: ../template/admin/option_general.php:47
+#: ../template/admin/widget_booking_form.php:38
+#: ../vc/vc_cpbs_booking_form.php:33
+msgid "Currency"
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:33
+#: ../template/admin/option_general.php:48
+msgid "Currency."
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:39
+msgid "Exchange rate"
+msgstr ""
+
+#: ../template/admin/option_exchange_rate.php:41
+msgid "Exchange rate."
+msgstr ""
+
+#: ../template/admin/option_general.php:3
+msgid "Billing type"
+msgstr ""
+
+#: ../template/admin/option_general.php:4
+msgid "Select billing type."
+msgstr ""
+
+#: ../template/admin/option_general.php:16
+msgid "Select company logo."
+msgstr ""
+
+#: ../template/admin/option_general.php:23
+msgid "Google Maps API key"
+msgstr ""
+
+#: ../template/admin/option_general.php:25
+#, php-format
+msgid "You can generate your own key %s."
+msgstr ""
+
+#: ../template/admin/option_general.php:25
+msgid "here"
+msgstr ""
+
+#: ../template/admin/option_general.php:32
+msgid "Remove duplicated Google Maps scripts"
+msgstr ""
+
+#: ../template/admin/option_general.php:34
+msgid ""
+"Enable this option to remove Google Maps script from theme and other, "
+"included plugins."
+msgstr ""
+
+#: ../template/admin/option_general.php:35
+msgid ""
+"This option allows to prevent errors related with including the same script "
+"more than once."
+msgstr ""
+
+#: ../template/admin/option_general.php:40
+msgid "Enable (remove)"
+msgstr ""
+
+#: ../template/admin/option_general.php:59
+msgid "Length unit"
+msgstr ""
+
+#: ../template/admin/option_general.php:60
+msgid "Length unit."
+msgstr ""
+
+#: ../template/admin/option_general.php:71
+msgid "Date format"
+msgstr ""
+
+#: ../template/admin/option_general.php:72
+#, php-format
+msgid "Select the date format to be displayed. More info you can find here %s."
+msgstr ""
+
+#: ../template/admin/option_general.php:72
+#: ../template/admin/option_general.php:79
+msgid "Formatting Date and Time"
+msgstr ""
+
+#: ../template/admin/option_general.php:78
+msgid "Time format"
+msgstr ""
+
+#: ../template/admin/option_general.php:79
+#, php-format
+msgid "Select the time format to be displayed. More info you can find here %s."
+msgstr ""
+
+#: ../template/admin/option_general.php:85
+msgid "Default sender e-mail account"
+msgstr ""
+
+#: ../template/admin/option_general.php:87
+msgid "Select default e-mail account."
+msgstr ""
+
+#: ../template/admin/option_general.php:88
+msgid ""
+"It will be used to sending email messages to clients about changing of "
+"booking status."
+msgstr ""
+
+#: ../template/admin/option_general.php:101
+msgid "Geolocation server"
+msgstr ""
+
+#: ../template/admin/option_general.php:103
+msgid "Select which servers has to handle geolocation requests."
+msgstr ""
+
+#: ../template/admin/option_general.php:104
+msgid "For some of them, set up extra data could be needed."
+msgstr ""
+
+#: ../template/admin/option_general.php:107
+msgid "Server:"
+msgstr ""
+
+#: ../template/admin/option_general.php:119
+msgid "API key for ipstack server:"
+msgstr ""
+
+#: ../template/admin/option_general.php:126
+msgid "WooCommerce new order attachment"
+msgstr ""
+
+#: ../template/admin/option_general.php:127
+msgid ""
+"Select file which will be added to the new order e-mail message sent by "
+"wooCommerce."
+msgstr ""
+
+#: ../template/admin/option_general.php:134
+msgid "Booking report"
+msgstr ""
+
+#: ../template/admin/option_general.php:136
+msgid ""
+"Enable or disable sending (via e-mail) message with complete list of "
+"customers which bookings starts/ends today."
+msgstr ""
+
+#: ../template/admin/option_general.php:139
+msgid "Status:"
+msgstr ""
+
+#: ../template/admin/option_general.php:150
+msgid "Sender account:"
+msgstr ""
+
+#: ../template/admin/option_general.php:162
+msgid "List of recipients e-mail addresses separated by semicolon:"
+msgstr ""
+
+#: ../template/admin/option_general.php:168
+msgid "Date range"
+msgstr ""
+
+#: ../template/admin/option_general.php:171
+msgid "Report includes a today's bookings"
+msgstr ""
+
+#: ../template/admin/option_general.php:172
+msgid "Report includes a tomorrow's bookings"
+msgstr ""
+
+#: ../template/admin/option_general.php:177
+msgid "Cron event:"
+msgstr ""
+
+#: ../template/admin/option_general.php:187
+msgid "Get booking report in CSV format:"
+msgstr ""
+
+#: ../template/admin/option_general.php:189
+msgid "Get report"
+msgstr ""
+
+#: ../template/admin/option_general.php:194
+msgid "Fixer.io API key"
+msgstr ""
+
+#: ../template/admin/option_general.php:196
+#, php-format
+msgid "Enter API key generated by %s."
+msgstr ""
+
+#: ../template/admin/option_general.php:203
+msgid "Non-blocking booking statues"
+msgstr ""
+
+#: ../template/admin/option_general.php:205
+msgid ""
+"Selected these statuses which don't block date/time during checking vehicle "
+"availability based on past bookings."
+msgstr ""
+
+#: ../template/admin/option_import_demo.php:5
+msgid "To import demo content, click on below button."
+msgstr ""
+
+#: ../template/admin/option_import_demo.php:6
+msgid ""
+"You should run this function only once (the same content will be created "
+"when you run it once again)."
+msgstr ""
+
+#: ../template/admin/option_import_demo.php:7
+msgid "This operation takes a few minutes. This operation is not reversible."
+msgstr ""
+
+#: ../template/admin/option_import_demo.php:9
+msgid "Import"
+msgstr ""
+
+#: ../template/admin/option_payment.php:3
+msgid "Booking status after successful payment"
+msgstr ""
+
+#: ../template/admin/option_payment.php:4
+msgid "Set selected status of the booking after the successful payment."
+msgstr ""
+
+#: ../template/admin/option_payment.php:7
+msgid "[No changes]"
+msgstr ""
+
+#: ../template/admin/option_payment.php:19
+msgid "Set the same status if the booking sum is zero:"
+msgstr ""
+
+#: ../template/admin/option_payment.php:29
+msgid "Booking statuses synchronization"
+msgstr ""
+
+#: ../template/admin/option_payment.php:31
+msgid "Synchronize booking statuses between plugin and wooCommerce."
+msgstr ""
+
+#: ../template/admin/widget_booking_form.php:9
+msgid "Style 1"
+msgstr ""
+
+#: ../template/admin/widget_booking_form.php:10
+msgid "Style 2"
+msgstr ""
+
+#: ../template/admin/widget_booking_form.php:18
+#: ../vc/vc_cpbs_booking_form.php:24
+msgid "Booking form"
+msgstr ""
+
+#: ../template/admin/widget_booking_form.php:30
+msgid "Form action URL address"
+msgstr ""
+
+#: ../template/admin/widget_booking_form.php:41
+msgid "- Not selected - "
+msgstr ""
+
+#: ../template/email_booking.php:99
+msgid "Rental period"
+msgstr ""
+
+#: ../template/email_booking.php:111
+msgid "Comment"
+msgstr ""
+
+#: ../template/email_booking.php:157
+msgid "Space type name"
+msgstr ""
+
+#: ../template/email_booking.php:169
+msgid "Add-ons"
+msgstr ""
+
+#: ../template/email_booking.php:189
+msgid "x"
+msgstr ""
+
+#: ../template/email_booking.php:250
+msgid "Company name"
+msgstr ""
+
+#: ../template/email_booking.php:327
+msgid "[YES]"
+msgstr ""
+
+#: ../template/email_booking.php:327
+msgid "[NO]"
+msgstr ""
+
+#: ../template/email_test.php:50
+msgid "Information"
+msgstr ""
+
+#: ../template/email_test.php:55
+msgid ""
+"Test message sending via \"Car Park Booking System for WordPress\" plugin."
+msgstr ""
+
+#: ../template/public/booking_summary.php:18
+msgid "Download PDF"
+msgstr ""
+
+#: ../template/public/public-step-1.php:14
+msgid "Entry Date and Time"
+msgstr ""
+
+#: ../template/public/public-step-1.php:15
+msgid "Entry Date"
+msgstr ""
+
+#: ../template/public/public-step-1.php:41
+msgid "Exit Date and Time"
+msgstr ""
+
+#: ../template/public/public-step-1.php:42
+msgid "Exit Date"
+msgstr ""
+
+#: ../template/public/public-step-1.php:68
+msgid "Select Car Park"
+msgstr ""
+
+#: ../template/public/public-step-1.php:71
+msgid "Car park"
+msgstr ""
+
+#: ../template/public/public-step-5.php:4
+msgid "Thank you for your order"
+msgstr ""
+
+#: ../template/public/public-step-5.php:10
+msgid "Pay for order"
+msgstr ""
+
+#: ../template/public/public-step-5.php:17
+msgid "Pay via Stripe"
+msgstr ""
+
+#: ../template/public/public-step-5.php:18
+#: ../template/public/public-step-5.php:24
+msgid "(redirecting in <span></span> seconds...)"
+msgstr ""
+
+#: ../template/public/public-step-5.php:23
+msgid "Pay via PayPal"
+msgstr ""
+
+#: ../template/public/public.php:163
+#, php-format
+msgid "%s spaces"
+msgstr ""
+
+#: ../template/public/public.php:193
+msgid "Contact"
+msgstr ""
+
+#: ../template/public/public.php:196
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: ../template/public/public.php:198
+#, php-format
+msgid "Fax: %s"
+msgstr ""
+
+#: ../vc/vc_cpbs_booking_form.php:16
+msgid "Displays booking from."
+msgstr ""
+
+#: ../vc/vc_cpbs_booking_form.php:17
+msgid "Content"
+msgstr ""
+
+#: ../vc/vc_cpbs_booking_form.php:25
+msgid "Select booking form which has to be displayed."
+msgstr ""
+
+#: ../vc/vc_cpbs_booking_form.php:34
+msgid "Select currency of booking form."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:43
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:44
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:48
+#: ../woocommerce/checkout/thankyou.php:54
+msgid "Thank you. Your order has been received."
+msgstr ""
