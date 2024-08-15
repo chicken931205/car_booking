@@ -914,7 +914,13 @@
             
             var step=$self.e('input[name="cpbs_step"]');
             var stepRequest=$self.e('input[name="cpbs_step_request"]');
-            stepRequest.val(parseInt(step.val(),10)+stepDelta);
+
+            var step_val = parseInt(step.val(),10);
+            if (step_val === 3 && stepDelta === 1) {
+                stepRequest.val(parseInt(step.val(),10)+stepDelta+1);
+            } else {
+                stepRequest.val(parseInt(step.val(),10)+stepDelta);
+            }
 			
             $self.post($self.e('form[name="cpbs-form"]').serialize(),function(response)
             {
@@ -1229,7 +1235,7 @@
                 if($('#wpadminbar').length===1)
                     offset+=$('#wpadminbar').height();
                 
-                // $.scrollTo($('.cpbs-main'),{offset:-1*offset});
+                $.scrollTo($('.cpbs-main'),{offset:-1*offset});
             });
         };
 		
